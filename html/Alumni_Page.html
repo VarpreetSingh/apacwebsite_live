@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/images/alumniCounterLogo.png" alt="" id="facultyLogo1">
+      </div>
+      <div class="fbn">
+        <h2 class="mf1b">Placements</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+      <br><br><br>
+
+      <div id="admissionQuery1">
+        <img src="../media/images/yourQuery.png" alt="" >
+      </div>
+      <br>
+      <h3 id="fpl">Alumni</h3>
+
+      <div class="aboutUsContent">
+        <h5><strong>Alumni Association</strong></h5><br>
+        The Asia-Pacific Alumni Association (AAA) offers an opportunity to our alumni to remain in touch with their alma mater. They are the Brand Ambassadors of Asia-Pacific Institute of Management and its most powerful communication channel to the outside world. As they come back repeatedly for a 360 sharing of experiences with their seniors, juniors, batch-mates and faculty, they bring in the latest trends and happenings from the corporate world.
+        <br><br>
+        They take back with them the latest knowledge from academia along with renewed memories, and through word-of-mouth enthuse more corporates to recruit Asia-Pacific graduates. All graduating students automatically become life-members of the AAA. The Alumni Affairs Committee takes care of the activities, under the close supervision of the CCR.
+        <br><br><br>
+        <h5><strong>Alumni Speak</strong></h5>
+
+
+        <div class="sectionAa">
+          <div class="row">
+            <div class="col">
+              <img src="../media/alumni/garima(1).jpg" alt="" id="ifi" width="28%" height="87%">
+            </div>
+            <div class="col">
+              <p id="ifn"> Garima Bhandari,  <br>Pursuing Doctoral Programme <br>South Carolina, USA</p>
+              </div>
+              <p id="ifd">Greetings to the prospective students of AIM. I attended the AIM in 1998-2000. This has helped me in gain good insight into the corporate world not only in India but here in the US also. I had come in search of top MBA colleges in Delhi. After a lot of considerations, eventually chose to be a part of AIM and today I am proud of being an AIM alumnus  The faculty is well versed in their respective fields. I offer my gratitude to Dr.Arun Dravium for his continuous unflinching encouragement in helping me further my career even here in USA. My advice to all the prospective students is that aim high, dream big dreams and you will succeed in life. Your education and hard work will always pay off; it is only a matter of time. There are many students like you, here in the U.S. and India, who have come to realize their dreams. So it is alright to persevere. With Asia Pacific and under the guidance of Professor Draviam I can say that you are in good hands and rest is up to you to perform. Good luck to you all in your current and future endeavors. Go Asia Pacific! With Best Wishes, Garima Bhandari
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <img src="../media/alumni/Devesh Kumar.jpg" alt="" id="ifi" width="28%" height="87%">
+            </div>
+            <div class="col">
+              <p id="ifn"> Devesh Kumar<br> Sr. Manager <br> Janalakshmi Financial Services Pvt. Ltd</p>
+              </div>
+              <p id="ifd">Greetings and Welcome to the prospective students of AIM. I am Sr. Manager in Janalakshmi Financial Services Pvt. Ltd, responsible to look after North Zone. I am doing a project in Bihar funded by World Bank. I am pursuing my P.hd in Banking. I am proud of being an alumnus of AIM. Faculty at AIM are well versed in their own fields. I am very thankful to Prof. Arun Draviam and Prof.Ravindra Bhatia who have guided me to make my career in Banking and related Financial Services. My advice to all the prospective students is that choosing the specialization should be the 1st priority . Further if you have chosen an Institution with all required infrastructure, then you have taken right step for a successful career. Come and join AIM and feel the difference.
+              </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/vivek mukul.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn1"> Vivek Mukul <br>
+                    Microsoft Corp. </p>
+                </div>
+                <p id="ifd">Asia Pacific Institute of Management has a culture of its own which is inculcated in its students right from the onset of the course. The course curriculum is well designed, planned and executed. The faculty is always forthcoming with guidance and support pushing students to perform their best. Optimum Stress is given on class room learning as well as self learning through the various assignments and projects. AIM certainly is a platform for a global learning.
+                </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/Arindam Saha.JPG" alt="" width="25%" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn2">Arindam Saha <br>
+                    </p>
+
+              </div>
+              <p id="ifd">I had short listed AIM in search of some top MBA colleges in Delhi and can proudly say that I took the right decision. Thanks to AIM for giving me the rights blend of academic and professional education that has helped me to grow in the corporate world. The faculty and the support staff at AIM groomed my personality meticulously and the fun-filled two years of my PGDM will be cherished forever. The experienced faculty and the robust industry exposure made AIM a renowned name in the field of Management Education.</p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/prashant mishra.JPG" alt="" width="25%" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn"> Prasant Mishra <br>
+                    Sales Lead-SME&CHANNELS <br>
+                    AGC Networks Ltd-An Essar Enterprise</p>
+                </div>
+                <p id="ifd">Hi, its really good to remember those old days of study, friends, faculties, staff and fun at Asia Pacific, which made us feel it like another home at a new place. Now a days we also feel proud in saying to be an alumni of Asia Pacific Inst of Mgmt.
+                </p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/himanshu.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn"> Himanshu Singh <br>
+                    Assistant Manager  <br>
+                    AFAQS</p>
+                </div>
+                <p id="ifd">I always wanted to do PGDM and Asia Pacific Institute of Management being one of the best B-Schools in North India known for its good placements and offers PGDM.  Special thanks to the Corporate Relations Team for all the effort they make for better placements. I wish them luck for their future endeavors
+                </p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/antra guha.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn">Antara Guha <br>
+                  Manager - Training & HR <br>Choice Hotel India Limited</p>
+                </div>
+                <p id="ifd">I wish to be informed about alumni meets at the Jasola Campus, and wish to attend the same and to be kept posted regarding the updates at the institute.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/somraj-dey.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                <p id="ifn">Somraj Dey <br>
+                        Manager-HR, Fedders Lloyd Corporation Limited</p>
+                </div>
+                <p id="ifd">The tow year PGDM period of 2001-2003 was very helpful in achieving my career goal and convert my endeavors into real time achievements. The Course Curriculum was industry specific and overall faculties were excellent. It is a very good opportuity for all the aspirants to prove themselves. TOday I could achieve my professional aim because of Asia-Pacific Institute of Management</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/vishal kumar srivastava.JPG" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Vishal Kumar Srivastava <br>
+                        Assistant Manager   <br>
+                  KPMG</p>
+
+              </div>
+              <p id="ifd">AIM has been place where I found a unique blend of excellence and commitment. Great faculty, wonderful ambience to learn, and excellent facilities, this is how I describe AIM. If I were to describe AIM in one word it would be Excellence with Innovation. I would like to thank my faculty and fellow mates
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/dipankar(1).jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Dipankar Chakraborty   <br>
+                        Regional Merchandising & Events (South),<br>
+                  PPD</p>
+
+              </div>
+              <p id="ifd">It gives me great satisfaction to be part of an institute which is an incredible platform for professionalism, integrity, and culture. It was indeed a pleasure to study under the guidance of renowned faculty accompanied with the guidance & exposure to the industry from the Center for Corporate Relations (CCR) of which I was too a member of and which eventually helped me getting placed with dual offers during our Final Placements. I am highly indebted to each and everyone from my alma mater- Asia Pacific Institute of Management for my success in professional life
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/saba jamal.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Saba Jamal <br>
+                        Probationary Officer,  <br>
+                  Federal Bank</p>
+
+              </div>
+              <p id="ifd">Asia Pacific became my first choice because of its faculty and type of exposure it gives to its students. I am from Patna and had come in search of a top MBA college in Delhi. These two years here at AIM, have been a real learning experience & have in many ways, made me industry ready potential human resource. All thanks to the AIM faculty, for the timely guidance, in shaping up career. Remember “if you have the will, the rest will follow.” Always keep it burning.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/Shivender Bhargava.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Shivender Bhargav <br>
+                        Marketing Manager, <br>
+                  Imperial Auto Industries</p>
+
+              </div>
+              <p id="ifd">It gives me great Pleasure to give back something to my institute in the form of vote of thanks for making me to establish myself in the corporate world with ease. It would not have been possible without the support which i got from the faculty of the institute, my fellow colleagues, ever inspiring chairman and my parents. The high level of education and practical training imparted throughout the course to handle management challenges and situations helped me not only to get the best knowledge but also the best campus placement in good organization. I would again like to thank Asia Pacific Institute of Management for building my career and making me a pillar which can cement itself anywhere in the market.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/ganesh-singh(2).jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Ganesh Singh <br>
+                        Commercial Executive,    <br>
+                  Worlds Window Group</p>
+
+              </div>
+              <p id="ifd">I would like to convey my regards and thanks to AIM for their help in my placement by training me for the GD/PI and other technical help. I would also like to appreciate my regards for the coordination and help in calling so many elegant companies to our campus which help our batch to get a new start as a fresher. Thank you CCR Department and Asia-Pacific!!!!
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/mazz-amir.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Maaz Amir <br>
+                        Senior Sales Account Manager,  <br>
+                  Big CBS Network</p>
+
+              </div>
+              <p id="ifd">Asia Pacific Institute of Management well prepared me for my role in the professional corporate world. Asia Pacific Institute of Management focuses on using the lecture rooms as a laboratory for experiential learning, and encourages students to understand the criticalities of tough corporate world with the regular industrial exposure and established live case studies while completing the program. AIM gave me my first platform into the corporate world in the form of NDTV wherein I was able to apply what I learned in the classroom to real-world problems. With the strong and solid foundation at AIM I got an opportunity to work with few of the biggest media companies till date in a short career span of 4 years, like; NDTV, Hindustan Times (Fever 104 FM) and the number one US based TV Network ‘Big CBS Network’. There is so much that I achieved at this institution that talking about it will be an endless story. I will cherish these memories throughout my life.I am fortunate to be a part of Asia Pacific Institute of Management.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/sangram kesri(1).jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Sangram Keshari Panigrahi <br>
+                        Assistant Manager,  <br>
+                        Hyundai Motor India Ltd.
+                      </p>
+
+              </div>
+              <p id="ifd">AIM has been a place where I found a unique blend of excellence and commitment. Great faculty, wonderful ambience to learn, and excellent facilities is how I describe AIM. Great organizations always have a great leader, and AIM has been blessed with the leadership prominent faculty, supported by a wonderful team. Those two years of my life were not just full of hard work, but they were undoubtedly full of such lessons and experiences which made me a better person day by day. I left my college with diverse personality enhancements and such intangible assets which are now a part of my attitude. I thank AIM for recognizing and appreciating my hard work and performance.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/nitin bisht.JPG" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Nitin Bisht <br>
+                        GL-SBU HR, <br>
+                  Minda Corporation Ltd.</p>
+
+              </div>
+              <p id="ifd">Asia pacific Institute of Management are in sync with the industry requirements. I have benefited by investing my 2 years here and I am already in the process of getting the life long returns.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/kadambanl.JPG" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Kadambani Gautam <br>
+                        Assistant Manager,  <br>
+                  IDBI Bank</p>
+
+              </div>
+              <p id="ifd">I took admission in Asia Pacific Institute of Management in 2010. It gives me immense pleasure to be a part of such an Institute which is ranked amongst the top business schools in Delhi. I believe APIM has given me a valuable education that will serve as a strong foundation in the years to come. The dedication, support & motivation of each of the faculty is remarkable & enable students to achieve their dreams! The rich curriculum, practical knowledge, presentations were the good source of knowledge. I am thankful to CCR Team for helping me in placement. I would like to thank APIM for all its support & guidance!!!
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/Rajatava Bagchi.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Rajatava Bagchi<br>
+                        Research Lead (Financial Services),<br>
+                  Evalueserve India Pvt. Ltd</p>
+
+              </div>
+              <p id="ifd">I am an alumnus of this college, passed out in 2005 with specialization in Finance & Marketing. I am currently working as a Research Lead with Evalueserve a MNC based in NCR.  Initially I was a little apprehensive about MBA colleges in Delhi. But after speaking to the mentors here at AIM, I could realize that this institute had lot better to offer compared to the top business schools in India. It is good to see the college doing well academically and otherwise . I wish everyone at Asia Pacific Institute of Management all the best in all their future endeavors.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/priyom.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Priyom Barooah <br>
+                        HR Executive,  <br>
+                  Approach International  </p>
+
+              </div>
+              <p id="ifd">I was selected by several institutions of Delhi in 2009 for my PGDM. After assessing the institutions myself I selected Asia-Pacific Institute of Management for my for 2 year PGDM course. I was deeply involved in the activities of Asia Pacific. It had provided a very good opening in my career. The Faculty, the Library, the Courses, the Counseling Sessions, the Guest Lectures and Presentations were a good source of knowledge as well as entertainment for me. The imposing building, well maintained campus and the cordial staff members may also add attraction to any person who desires to build his/her career. It is my pleasure to say that I am a passed out of this Institute. I am thankful to all and particularly to the members of the HR faculty and the Placement Department (CCR) who had left no stone unturned for my placements even before the completion of  last trimester. I am a Recruiter today, just the way I planned to initiate my career and I dedicate this achievement to the Placement cell. Thank you CCR. Thank you Asia-Pacific Institute of Management.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/rajshree.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Rajyashree Hazarika   <br>
+                        Management Trainee,<br>
+                  Gunnebo India ltd</p>
+
+              </div>
+              <p id="ifd">We always do a work with a purpose, with an aim, Asia Pacific Institute of Management, AIM is one such institute which showed me direction to achieve my aim.  I am sure, I will go far with the knowledge I gained from AIM. I am also thankful to the CCR department as they have supported us by providing the best guidance they can, because of which we all got the job that we were aiming for.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Akshita Modi <br>
+                        Assistant Manager,  <br>
+                  ICICI Bank</p>
+
+              </div>
+              <p id="ifd">Asia Pacific Institute of Management provides the students with a rigorous academic challenge blend with a rich personal development experience. The community of experienced faculty and engaged students allow for invaluable mentoring and teamwork opportunities. The PGDM (Banking and Financial services) program has provided me with the necessary skill sets to prepare for the corporate world. I am a banker today, just the way I planned to initiate my career and I dedicate this achievement to AIM faculty. At present I am working with India’s second largest bank “ ICICI Bank” and for that I eternally thank Centre of Corporate Relations (CCR) @ AIM, for guiding me. It’s been a wonderful journey in Asia Pacific Institute of Management and one which I know will continue for ever.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/saurabh.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Saurabh Mahajan <br>
+                        Senior Analyst, <br>
+                  Copal Partners  </p>
+
+              </div>
+              <p id="ifd">It gives me a complete satisfaction to be part of an institute which is an incredible blend of professionalism, integrity, and culture. It's a pleasure to study under the guidance of renowned faculty with rich experience which gives us platform for successful career. I owe my success to Asia Pacific Institute of Management and thankful to them for their sincere efforts
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/alumni/varun.jpg" alt="" id="ifi" width="28%" height="87%">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Varun Gulati  <br>
+                        Management Trainee,<br>
+                  ICICI Securities</p>
+
+              </div>
+              <p id="ifd">I took admission in Asia pacific institute of management in 2009 and I feel blessed. I chose this institute because it is AICTE approved and ranked amongst the top management schools in Delhi. I considered some recommendations also. And today I am proud of my decision. This college satisfied me completely. Every possible care has been taken while designing our infrastructure. Air conditioned campus, spacious classrooms equipped with LCD projectors and audio system, well maintained library and information centre, Wi-Fi availability, cafeteria, auditorium and amphitheatre are some of the important features of this college. Faculty of this college is quite knowledgeable and cooperative. Proper guidance is provided to each n every student. Placement cell is very active and management is very helpful.
+              </p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><br><br>
+        <h5><strong>Alumni AIM</strong></h5>
+        <br><br><br><br>
+        <center><h6 id="alumni"><strong><a href="#">For Alumni Registrations, click Here</a></strong></h6></center>
+        <br><br><br><br>
+        <h5><strong>Student Outreach Programme</strong></h5>
+          Students form strong foundation of any institution. When the young minds leave the organisation as successful professionals, the institute grows stronger and soars higher.  Asia Pacific Institute of management cherishes the association with you and would like to nurture this connect into a lifelong relationship by offering you reasons to come back to your alma mater.
+            <br><br>
+          The Student Outreach Program (SOP) is one such initiative that trusts your instinct about the qualified prospect of AIM. Needless to say prospective students want to hear from someone who has gone through and benefited from the experience
+            <br><br>
+          Therefore, if you have a friend or a colleague who qualifies for our PGDM program as per the  guidelines given in the following pages who may refer the aspirant to us by filling up the details in the online form given ahead. For all recent happening and latest updates you may kindly direct the student to our website www.asiapacific.edu and our facebook page at https://www.facebook.com/asiapacificdelhi.
+            <br><br>
+          In order to reciprocate your kind  gesture , we will be happy to send you a token amount and offer you following privileges which may be of immense value to you in your career :
+          <br><br>
+          Sending you information and invites to all our Special  campus events , Seminars, Workshops  and Management Development programs;
+          Offering you a life time membership of our newly constructed library - 'Athenaeum' which will give you an access to a huge resource of one lac books, online journals and online database; and
+          if teaching excites you , it will be a pleasure for us to invite you as guest faculty to share your corporate experience and insights .
+          <br><br><br><br>
+          <center><h6 id="alumni"><strong><a href="#">Alumni Local Chapter Registration</a></strong></h6></center>
+          <br><br><br><br>
+          <h5><strong>Alumni Meet - Nostalgia 2014</strong></h5><br>
+          <strong><u>AIM 16th Alumni Meet – Nostalgia 2014</u></strong><br>
+          Management education is not only the driving force for a true leader to move ahead in professional and personal life but also a worthy occasion to take a pause and reflect back, connect with one’s alma mater and share the richness of one’s journey. The Annual Alumni Meet 2014 of Asia-pacific Institute of Management, New Delhi proved to be that pause.
+          Asia-Pacific Institute of Management, New Delhi Alumni Association, organized the 16th Alumni Meet – Nostalgia 2014 which was held at AIM Campus, New Delhi on 1st November, 2014. The Meet was organized to connect, strengthen and develop Alumni Network. Mrs. Nadira, Coo, Indo-Canadian Business Chamber graced the occasion as a Chief Guest. She shared her experience and appreciated all the faculty members and students for their contribution towards helping the institute to achieve 37th Rank among all B-school in India as per Business Today Survey. She also exhorted the students to explore the possibility of becoming an Entrepreneur. She advised the students to be in constant touch with the Alumni and bring glory to the institute by their hard work and dedication in the corporate.
+            <br><br>
+          Around 500 Alumni from various batches attended the Meet, it was heartening to note that Alumni from earliest batches also attended. The 2nd year students interacted with their Alumni and explored the possibilities of placement with their respective organizations.
+           <br><br>
+          All-in-all, the evening of 1st November, 2014 resulted in some rich experiences in the form of sharing of reminiscent times, new networks built, rich experience shared and a lot of appreciation showered by the alumni to AIM PGDM – 2012-14 batch for such an exemplary event management.
+           <br><br>
+          The all-pervasive feeling of the occasion can be summarized in this one quote - "Education is what survives, after you’ve forgotten what you memorized."
+          <br><br>
+          <img src="../media/alumni1.jpg" alt="">
+          <br><br><br>
+          <h5><strong>14th Alumni Meet-2012 Nostalgia </strong></h5>
+          <img src="../media/alumni2.jpg" alt="" width="100%"><br><br>
+          Nostalgia 2012', the 14th Annual Alumni Meet of Asia-Pacific Institute of Management, was organized with grand celebrations, on 24th November, 2012. Mr. Amit Roy, Chief of Audit and Assurance, NIIT Ltd, was the Chief Guest while Mr. Sandeep Sharma, VP- Delivery & Development, Syscom Corporation Ltd, was the Special Guest of Honour and Mr. Ajay Raghuvanshi, National Head- Dealer Development, Hyundai Motors India, was the Guest of Honour, at this occasion. Around 1500 Alumni attended the programme.umni attended the programme. The Alumni Meet, at the Asia Pacific Institute of Management, saw the Alumni recall their shared past with nostalgia. The Alumni Meet began with the Gansesh Vandana & Cultural Activities, performed by the current students. The Institute also felcitated alumni members with mementos.
+          <br><br>
+          More than 1500 alumni from all over India, participated in this event. It was a wonderful occasion to meet and share the experiences, with the alumni who postgraduated from the institute. An opportunity was given to every alumnus/alumnae, to share his/her experience at AIM campus and its impact on their respective career. The Chairman, Mr. A. K. Shrivastava, quoted that “It is an Institute’s Alumni who are its brand ambassadors and Asia-Pacific has always been proud of its Alumni, who occupy important positions in many reputed companies and organizations.”
+           <br><br>
+          In his message for this occasion, Dr D. K. Batra, Director, said, "We are all excited about Nostalgia 2012. Nostalgia provides a wonderful opportunity to rekindle old memories amongst the alumni, re-calling the heydays at AIM and bringing the AIM community of Alumni, Students and Faculty members, together. Going forward, we will be institutionalizing more initiatives, in order to bring AIM and alumni together."
+          <br><br><img src="../media/alumni3.jpg" alt="" width="100%">
+          <br><br><br><br>
+            <center><h6 id="alumni"><strong><a href="https://asiapacific.almaconnect.com">Click Here for ALUMNI CONNECT</a></strong></h6></center>
+
+
+
+      </div>
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

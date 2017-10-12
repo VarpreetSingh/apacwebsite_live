@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn111')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/images/careerBannerImage.png" alt="" id="careerbanner">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/images/career.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf11ab">Academic</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="admissionQuery1">
+        <img src="../media/images/yourquery.png" alt="" >
+      </div>
+
+      <div class="taba">
+        <div class="tab">
+          <a href="../html/Academic_1_main_page.html"><button class="tablinks" id="abs1" >Introduction </button></a>
+          <a href="../html/.html"><button class="tablinks" id="abs1">Academic Calendar </button></a>
+          <a href="../html/Academic_1_main_page.html"><button class="tablinks" id="abs1" style="background-color:#0d4d95;color:white">Academic Programmes </button></a>
+        </div>
+      </div>
+
+      <h3 id="fpllad">Certificate Course in Statistical Analysis using IBM SPSS</h3>
+
+
+      <div class="indivisualcoursestructure">
+        <div class="sectionA">
+            <p id="ibm">COURSE DETAILS</p>
+              <p>
+                <strong><u id="title">Course Objective</u></strong>
+                <br><br>
+                Data is the new frontier of 21st century. According to a Harvard Business Report by Thomas H. Davenport  and D. J. Patil (2012) data science is going to be the hottest job of 21st century and data analysts have a very bright career ahead. From academic world to corporate sector, and from service and financial institutions like banks to market researchers the data is being used and treated in various ways  like  deriving business insight, understand consumer behaviour, exist-poll forecast or predict the outcome of football worldcup (Goldman Sachs did it and got surprized!),  develop objective plans for new ventures, study the brand image, or write a scholarly articles in high impact journals  and develop high quality thesis/project work. A good knowledge of quantitative data analysis is a sine qua none for progress in academic and corporate world. Keeping this in mind this course has been designed in such way that students, researchers, teachers and corporate professionals who want to equip themselves with sound skills of data analysis and wish to progress with this skill can learn it in in-depth and interesting manner using IBM SPSS Statistics-one of the earliest and most popular statistical data analysis software package till date.
+                 <br><br>
+                <strong><u id="title">Lesson Outcomes</u></strong>
+                 <br><br>
+                On completion of this course the participants will develop an ability to independently analyze and treat data, plan and carry out new research work based on their research interest. The course encompasses most of the major type of research techniques employed in academic and professional research which can be seen in syllabus.
+                <br><br>
+                <strong><u id="title">Pedagogy</u></strong>
+                 <br><br>
+                The focus of current training program will be to help participants learn statistical skills through  exploring SPSS and its different options. The focus will be to develop practical skills of analyzing data, developing an independent capacity to accurately decide what statistical tests will be appropriate with a particular kind of research objective. The course will not go into manual calculations and will focus only on the options provided in SPSS processor, for e.g., while demonstrating One-way ANOVA the manual calculation of between and within group variance will not be done, rather the focus will be on covering the dialogue options  provided by SPSS processor for One-way ANOVA like how to carry out contrast test, how to see trend in data, how to do post-hoc comparison, how to interpret and report obtained  F-ratio and how to carry out and report bootstrapping in case of One-way ANOVA. However, the major basic concepts and theoretical assumptions underlying each test will be discussed so that those who even have no background in research and statistics can master it. The program will also cover how to write the obtained output from SPSS in APA format.
+                <br><br>
+                <strong><u id="title">Pre-requisite</u></strong>
+                  <br><br>
+                A love for data analysis and statistics, research aptitude and motivation to do good research work.
+                <br><br>
+                <strong><u id="title">Evaluation</u></strong>
+                  <br><br>
+                Participants will be assessed on practical assignments and tests after the completion of training program. There will be both lab work and two personal assignments. One personal assignments will be a sort of research project that students have to pursue in such a way that after completion of program its suitable for publication in a good journal. Students are most welcome to bring their own data and problems for discussion in class.  Participants from corporate sector who are not interested in publication have to undertake projects based on simulated or already collected data. There will be one full test covering entire program and participants will be provided grade based on that.
+                <br><br>
+                Target Audience: Graduate, master’s and doctoral level students, academic scholars and teachers, market researchers, independent researchers, corporate professionals who want to master the skills of data analysis, MBAs from HR, Marketing & Finance who are looking to switch into analytics sector or want to upgrade their career, students and scholars who are looking to go for international Masters or PhD program as such data analysis skills are must and can enhance your candidature.
+                  <br><br>
+                <strong><u id="title">Number of seats</u>: 10</strong>
+                 <br><br>
+                <strong><u id="title">Career  Prospects:</u></strong>
+                 <br><br>
+                The trained participants have job prospect to grow as Research Associates with universities and institutions. For those looking to make a career in corporate sector they can work as Market Analysts or Statistical analyst/experts in psychometric and research companies. Academicians and researchers having problem with statistical and SPSS skills will benefit from developing an independent competency with SPSS.
+                 <br><br>
+                <strong><u id="title">Fee: </u></strong>
+                 <br><br>
+                Graduate, Masters & PhD students 	Rs. 10,000/-
+                PhD students with scholarship	Rs. 15000/-
+                Teachers, employed & corporate professionals	Rs. 20,000/-
+                <br><br>
+                <strong><u id="title">Course Schedule:</u></strong>
+                  <br><br>
+                Mid-December (10 days Intensive Training Program)
+              </p>
+              <br><br>
+            <p id="ibm">COURSE SYLLABUS</p>
+            <p>
+              <strong><u id="title">Unit 1: Developing the familiarity with SPSS Processer
+                </u></strong>
+              <br><br>
+                Entering data in SPSS editor. Solving the compatibility issues with different types of file. Inserting and defining variables and cases. Managing fonts and labels. Data screening and cleaning. Missing Value Analysis. Sorting, Transposing, Restructuring, Splitting, and Merging. Compute & Recode functions. Visual Binning & Optimal Binning. Research with SPSS (random number generation).
+
+                 <br><br>
+                <strong><u id="title">Unit 2: Working with descriptive statistics
+                  </u></strong>
+                 <br><br>
+                Frequency tables, Using frequency tables for analyzing qualitative data, Explore, Graphical representation of statistical data: histogram (simple vs. clustered), boxplot, line charts, scattorplot (simple, grouped, matrix, drop-line), P-P plots, Q-Q plots, Addressing conditionalities and errors, computing standard scores using SPSS, reporting the descriptive output in APA format.
+
+                 <br><br>
+                <strong><u id="title">Unit 3: Hypothesis Testing
+                  </u></strong>
+                 <br><br>
+                Sample & Population, concept of confidence interval, Testing normality assumption in SPSS, Testing for Skewness and Kurtosis, Kolmogorov–Smirnov test, Test for outliers: Mahalanobis Test, Dealing with the non-normal data, testing for homoscedasticity (Levene’s test) and multicollinearity.
+                 <br><br>
+                <strong><u id="title">Unit 4: Testing the differences between group means</u></strong>
+                 <br><br>
+                t – test (one sample, independent- sample, paired sample), ANOVA-GLM 1 (one way), Post-hoc analysis, Reporting the output in APA format.
+                 <br><br>
+                <strong><u id="title">Unit 5: Correlational Analysis</u></strong>
+                 <br><br>
+                Data entry for correlational analysis, Choice of a suitable correlational coefficient: non-parametric correlation (Kendall’s tau), Parametric correlation (Pearson’s, Spearman’s), Special correlation (Biserial, Point-biserial), Partial and Distance Correlation
+                 <br><br>
+                <strong><u id="title">Unit 6: Regression (Linear & Multiple)</u></strong>
+                 <br><br>
+                The method of Least Squares, Linear modeling, Assessing the goodness of fit, Simple regression, Multiple regression (sum of squares, R and R2 , hierarchical, step-wise), Choosing a method based on your research objectives, checking the accuracy of regression model.
+                 <br><br>
+                <strong><u id="title">Unit 7: Logistic regression</u></strong>
+                 <br><br>
+                Choosing method (Enter, forward, backward) & covariates, choosing contrast and reference (indicator, Helmert and others), predicted values: probabilities & group membership, Influence statistics: Cook, Leverage values, DfBetas, Residuals (unstandardized, logit, studentized, standardized, devaince), Statics and plot: classification, Hosmer-Lemeshow goodness-of-fit, performing bootstrap, Choosing the right block, interpreting -2loglikelihood, Omnibus test, interpreting contingence and classification table, interpreting Wald statistics and odd ratios.  Reporting the output in APA format
+                 <br><br>
+                <strong><u id="title">Unit 8: Non-parametric tests</u></strong>
+                 <br><br>
+                When to use, Assumptions, Comparing two independent conditions (Wilcoxon rank-sum test, Mann-Whitney test), Several independent groups (Kruskal- Wallis test), Comparing two related conditions (Wilcoxon signed-rank test), Several related groups (Friedman’s anova), Post-hoc analysis in non-parametric analysis. Categorical testing: Pearson’s Chi-square test, Fisher’s exact test, Likelihood ratio, Yates’ correction, Loglinear Analysis. Reporting the output in APA format.
+                 <br><br>
+                <strong><u id="title">Unit 9: Factor Analysis</u></strong>
+                 <br><br>
+                Theoretical foundations of factor analysis, Exploratory and Confirmatory factor analysis,  testing data sufficiency for EFA & CFA, Principal component Analysis, Factor rotation, factor extraction, using factor analysis for test construction, Interpreting the SPSS output: KMO & Bartlett’s test, initial solutions, correlation matrix, anti-image, explaining the total variance, communalities, eigen-values, scree plot, rotated component matrix, component transformation matrix, factor naming
+                 <br><br>
+                <strong><u id="title">Lab Work & Project:</u></strong>
+                 <br><br>
+                All the units will include discussion on theoretical concepts followed by practical SPSS demonstration on real/simulated data. Learners are welcome to bring and discuss their actual problems related to quantitative analysis. Our every learner receives personal attentions and we endeavour to equip every learner to develop a sense of professional competency in quantitative data analysis using SPSS.
+
+                 <br><br>
+                © Dr. Sanjay Singh, No part all the syllabus should be reproduced without written permission All right reserved
+            </p>
+            <br><br>
+            <p id="ibm">TRAINER PROFILE</p>
+            <p>
+              <strong>Dr. Sanjay Singh,
+              <br>
+              Ph.D., Erasmus Mundus-WILLPower Fellow
+              <br>
+              Email: sanjay.singh@asiapacific.edu , M - 99538020219953802021</strong>
+              <br>
+              SPSS Learning Page: <a href="#"><strong>www.facebook.com/statistics.india</strong></a>
+              <br>
+              <br>
+
+              Dr. Sanjay Singh has been recipient of prestigious Erasmus Mundus-WILLPower fellowship awarded by European Union. During the tenure of his fellowship he studied and worked at the University of Padova, Venice, Italy at the Centre for Risk and Decision-making (CeRD).
+               <br><br>
+              Dr. Singh has been a meritorious student throughout his student life and has received 3 Certificates of Academic Merit. He has worked for prestigious institutions like University of Delhi & Indian Institute of Technology, Delhi, and is currently a full time faculty at Asia Pacific Institute of Management, Delhi, one of the top 10 B-Schools in North India. Dr. Singh have been involved in academic teaching and training for over 7 years along with training and consulting to different companies for data analysis,  psychometric assessment,  and development of research and analytical skill that can enhance the productivity and growth of people and organizations.
+              <br><br>
+              Dr. Singh has published in journals of national and international repute and contributed chapters in books published with international publishers. He has trained at reputed organizations like Ernst & Young for IBM SPSS/AMOS and has received excellent rating for his training programs. He has consulted analytics, psychometric and human resource organizations in India and abroad for quantitative project planning, developing customized and culture fair psychometric tests and refinement of quantitative decision models. He has also consulted students and faculty from reputed institutions like London School of Economics, UK, University of Tallin, Estonia, University of Sydney, Australia, and Faculty of Management Studies, University of Delhi on research and analytics related projects.
+              <br><br>
+              Dr. Singh strongly believes that learning statistics and research methods can be fun and use of technology in learning can make it even more exciting. He is a dataphilic persona and strong supporter of open source movement in research technology and democratization of research education through the use of technology. As a researcher he loves working at the interface where statistics, human behaviour and technology meet.
+                <br><br>
+              <strong>Other Courses by Trainer</strong>
+                <br><br>
+              1. Structural Equation Modelling using IBM AMOS
+              <br>
+              2. AIM Certified Psychometrician Course
+              <br>
+              3. Sample size determination using IBM Sample Power
+               <br><br>
+              For details regarding these courses please contact to the trainer.
+              <br>
+              <strong>Mobile:99538020219953802021, Email:-sanjay.singh@asiapacific.edu</strong>
+            </p>
+            <br><br>
+            <p id="ibm">TESTIMONIAL</p>
+            <p>
+              The SPSS / Amos Training Program Evalution Summary Report from Research & Analytics Team, Ernst & Young, Trivendrum, Kerala:
+              <br>
+              <strong>Avarage Rating: 4.47/5</strong>
+              <br><br>
+              <img src="../media/eyspcc.jpg" alt="" >
+            </p>
+            <p id="sap">
+              <a href="#">Signup and Payment</a>
+            </p>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

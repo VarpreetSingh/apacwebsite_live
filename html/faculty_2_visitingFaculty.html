@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf">Meet The Faculty</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="admissionQuery1">
+        <img src="../media/images/admissionquery.png" alt="" >
+      </div>
+
+      <div class="tabc">
+        <div class="tab">
+          <a href="../html/faculty_1_coreFaculty.html"><button class="tablinks" id="abs1" >Core Faculty </button></a>
+          <a href="../html/faculty_2_visitingFaculty.html"><button class="tablinks" id="abs1" style="background-color:#0d4d95;color:white">Visiting Faculty </button></a>
+          <a href="../html/faculty_3_managementTeam.html"><button class="tablinks" id="abs1">Management Team </button></a>
+          <a href="../html/faculty_4_internationalFaculty.html"><button class="tablinks" id="abs1">International Faculty </button></a>
+          <a href="../html/faculty_5_guestfaculty.html"><button class="tablinks" id="abs1">Guest Speakers </button></a>
+        </div>
+      </div>
+
+      <br><br>
+      <h3 id="fp">Faculty Profile ( Visiting Faculty )</h3>
+
+<br>
+        <div class="sectionAa">
+
+          <div class="vf">
+            <p id="vfname">Attam Prakash</p>
+            <p>Law & Master Degree in Economics</p>
+            <p><u>parkash_a@rediffmail.com</u> </p>
+            <p>Professor</p>
+            <p id="pd">Prof. Attam Prakash holds a degree in Law & Master Degree in Economics. He did the management Course at the International Marketing Institute of the Harvard School of Business Administration, USA.
+              <br>
+                Prof. Attam Prakash has to his credit wide practical experience of teaching in business courses in India and abroad mainly at Indian Institute of Foreign Trade(IIFT), trade Development Authority(TDA), Indian Trade Promotion Organization(ITPO), Federation of Indian Chambers of Commerce and Industry(FICCI) and several other business centres in Delhi, Rajasthan, UP, Haryana , and Punjab, and Foreign countries, mainly, in Grenada(West Indies) for 7 years, Belize(Central America) for 4 years, Mozambique(Africa) for 2 years, Geneva( Switzerland), Tokyo(Japan), Seoul(South Korea), Toronto(Canada) and New York(USA); and research on various aspects of International Business for nearly 50 years.</p>
+          </div>
+          <br>
+          <div class="vf">
+            <p id="vfname">Hitesh Manocha</p>
+            <p>PGPM from IIM Ahmadabad</p>
+            <p><u>manochahitesh@yahoo.co.in </u> </p>
+            <p>Visiting Professor</p>
+            <p id="pd">Mr. Manocha is alumni of IIM Ahmadabad and have been engaged in Managing Consultancy from 1998 onwards. He Worked as General Manager, Modi Telstra Ltd, on a diversification project. His role was to conceptualise the entire project from scratch, assess its viability, formulate a Business Case. Prior to this he has also worked with Maxworth Orchads, Onida Group of Companies.
+                <br>
+                Presently he is also engaged as a Visiting Professor in the area of Marketing in various reputed management Institutions.
+          </div>
+          <br>
+          <div class="vf">
+            <p id="vfname">Shailaja Manocha </p>
+            <p>PGDBM</p>
+            <p><u>shailaja.vm@gmail.com </u> </p>
+            <p>Visiting Professor</p>
+            <p id="pd">Ms. Shailaja is alumni of Institute of Management Technology(IMT), Ghaziabad. She is teaching regularly at various Management colleges such as FORE, EMPI, Skyline Business School, BULMIN. Her Subject expertise is in the area of Marketing; specifically Marketing Management, Consumer behaviour, Service Marketing, Integrated Market Communication and Brand Management.
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Vibha Singh  </p>
+              <p>B. Tech, PGPCME</p>
+              <p><u>vibha.singh@asiapacific.edu  </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Ms. Singh is a Technocrat and Management Professional of 9 years of experience comprising 7 years in developing sales, Marketing and Business Development strategies in media industry.
+                <br>
+                  She has founded and successfully running Saanvi Enterprise; a corporate merchandise studio, Generated revenue to 50 lakhs with leading clients like Havells, Bank of America, Pet Fly, ABP News.
+                  <br>
+                  Worked as a freelancer in role of design/ brand consultant for Radical Reflex, Art Junction, Tugboat Films, ETV News Network etc.
+                  <br>
+                  Also closely worked with CEO , Star News on Strategic Business Decision including a new 24*7 weather channel launch and market expansion in new segments and new geographic.
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Manoj Kumar   </p>
+              <p>M.Phil, M.Sc(Computer Science)</p>
+              <p><u>manoj@asiapacific.edu  </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Prof. Kumar is M.Phil, M.Sc(Computer Science) and has 10 years of experience in the field of software development. He was associated with IMS, JIMS as a IT faculty before being assigned with Asia Pacific. He was also a faculty mentor of IBM academic intiative.
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">R.K.Wadhwa    </p>
+              <p>Ph.D</p>
+              <p><u>rkwadhwa@asiapacific.edu </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Prof Wadhwa after superannuation from Indian Institute of Foreign Trade has set up his own consultancy firm viz Global Business Consultant. He did his Doctrate on FDI-Its Role in India's Economy. He has about 30 years of teaching and research experience in the area of International Business.
+                  <br>
+                  As a follow up of the India Africa Form Summit held in April 2008 at New Delhi, he was instrumental in designing, developing and conducting Capacity Building Programmes in African Countries, as per the mandate given by Govt of India to IIFT. During his last tenure with Institute he was associated with the successful conduct of International Capacity Building Programmes on International Business in Ethiopia, Arab Republic of Egypt, and Botswana, and was rated one of the best faculty.
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Vivek Kumar     </p>
+              <p>B. Tech & MBA from F.M.S.</p>
+              <p><u>vivek@asiapacific.edu  </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Prof Kumar is a Management Consultant and providing assistance to industry in improving quality and productivity. He is an Electrical engineer from IIT Roorkee and a MBA from Faculty of Management Studies, Delhi University. In addition he has attended numerous short term courses in India and abroad. Also he is lead auditor for ISP 9001, ISO 14001 and OHSAS 18000 standards.
+                  <br>
+                He has 16 years of corporate experience with Shriram, Tatas and Polar groups where he has managed collaborations, set up new plants and turned around sick units.
+                <br>
+                He has been a visiting faculty to FMS Delhi University, IIT roorkee, IIT delhu, IMT Ghaziabad, Jama Milia University, Jamia Hamdard University, University of Petroleum and Energy Studies and other leading institutions since 1981.</p>
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Sundarmoy Sen      </p>
+              <p>MBA from F.M.S.</p>
+              <p><u>sundarmoy@asiapacific.edu </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Prof Sen is a veteran of 27 years in the field of Advertising, consulting & Academics. He has completed his graduation from St Xaviers College and MBA from Faculty of Management Studies.
+                <br>
+                  He has been associated with IIMs, FMS, BIMTECH as visiting faculty. He has also been associated with some of the top advertising & consulting firms in the world like Frank Simoes, Leo Burnett, Mckinsey, Google, Walmart. </p>
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Harbinder Singh Narula       </p>
+              <p>PGDBM</p>
+              <p><u>harbinder@asiapacific.edu  </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Mr. Harbinder is a business development professional qualified with 19 years of experience with major concentration in Telecom VAS, Consumer Internet and its domain specific application. He has held challenging roles with established global organizations like Google, Times Group, Buongiorno as well as with a key position in startup venture like aryty. His most recent exposure was an entrepreneurial role where he co founded Wonder Doctor and offered consulting to E-Commerce & Media companies overseas.
+                <br>
+                Mr. Harbinder in his most recent stint kick started an internet venture that focused on an online healthcare product which was funded by revenue from consulting services to overseas clients from UK, Africa, Middle East and USA. He is also Founder member of Google's business operations in India, where he started the business development function for Google in India and then led content Partnerships for Web & Mobile.</p>
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Dr. Asha Jain       </p>
+              <p>D.Litt & Ph.D</p>
+              <p><u>asha.jain@asiapacific.edu   </u> </p>
+              <p>Visiting Professor</p>
+              <p id="pd">Dr. Jain is a D.Litt & Ph.D in English Literature from Allahabad University (Central University). She is a veteran of more than three decades of academic association with different reputed educational institution.
+                <br>
+                Dr. Jain is a certified Practitioner of Neuro Linguistic Programming by Richard Bandler & International Certificate holder form CITY & GUILDS (Middle Earth Consultants). She is also involved in corporate training programmes for different business houses, such as THEEME Consultants, P.Q.R Management Consultants, Le'Debutante Club, etc.
+              </p>
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Prof. Jayant Kumar Bose       </p>
+              <p>PGDM, B.Sc.</p>
+              <p><u>jayant.k@asiapacific.edu   </u> </p>
+              <p>Adjunct Professor</p>
+              <p id="pd"><strong>Profile Summary</strong>
+                <br>
+                HE is Adjunct Professor at Asia-Pacific Institute of Management
+                 <br><br>
+                <strong>Experience</strong>
+                <br>
+                He has 13 years of work experience both in Academics & Industry. He is associated with part time as well as adjunct faculty with various management Institutes like IMT, JIMS, AMITY & many others.
+                 <br><br>
+                <strong>Area of Interest</strong>
+                <br>
+                Marketing and Strategy
+              </p>
+            </div>
+            <br>
+            <div class="vf">
+              <p id="vfname">Prof. A. K. Mitra        </p>
+              <p>MBA, PGDM, Ph. D.( Pursuing)</p>
+
+              <p id="pd"><strong>Profile Summary</strong>
+                <br>
+                Prof. A.K. Mitra is a professor of Corporate Strategy.<br><br>
+                <strong>Experience</strong>
+                <br>
+                He has 29 years of work experience both in industry and Academics including visiting faculty with various management Institutes like IMT, JIMS, AMITY ,Asia Pacific Institute of Management etc.
+                <br><br>
+                <strong>Area of Interest</strong>
+                <br>
+                Marketing and Corporate Strategy
+              </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Prof. Anupam Likhi         </p>
+                <p>MBA,PGDBM</p>
+
+                <p id="pd"><strong>Profile Summary</strong>
+                  <br>
+                  Her area of specialization is Strategy. <br><br>
+                  <strong>Experience</strong>
+                  <br>
+                  She has 20 years of work experience both in industry and Academics. Her associations as visiting faculty with the Management Institutes like IMT, JIMS, AMITY, Fore Institute of Management , Asia Pacific Institute of Management etc.
+                  <br><br>
+                  <strong>Area of Interest</strong>
+                  <br>
+                  Strategy
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Prof. C.V. Baxi         </p>
+                <p>MA, Fellow of Kellog Graduate School of Management, USA, Ex. Director of MDI, Gurgaon.
+                </p>
+
+                <p id="pd"><strong>Profile Summary</strong>
+                  <br>
+                  Prof. C.V. Baxi is a renowned Professor of Business Ethics & Corporate Strategy.
+                  <br><br>
+                  <strong>Experience</strong>
+                  <br>
+                  He has 35 years of work experience in Academics. He is also visiting faculty of various reputed business schools of India.He was the Director of MDI, Gurgaon. He was Consultant to the SCOPE, Ministry of Heavy Industry and Public Enterprises.<br><br>
+                  <strong>Area of Interest</strong>
+                  <br>
+                  Corporate Strategy
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Dr. Chaman Lal Bansal         </p>
+                <p>Ph.D., LLB, CS, PGDM (Administrative Law),
+                </p>
+
+                <p id="pd">Dr. C.L. Bansal is an associate professor of Business Laws at MDI Gurgaon.. Dr. C.L. Bansal holds a Ph.D degree from Delhi University with LLB from Delhi University and he is a Fellow member of Institute of Company Secretaries of India. He hold Post Graduate Diploma in Administrative Law from Indian Institute of Law. He has published 10 books in the area of Law and Management. He has 38 years of Professional and Teaching experience in the areas of Laws and Management. He got National Award for Excellence in Corporate Governance. He is visiting faculty at various India�s Top rated Business Schools including Asia Pacific Institute of Management.
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">	Prof. Gautam Gupta        </p>
+                <p>PGDM, MDP from IIM Calcutta, B.Com (Hon.) from D.U
+                </p>
+
+                <p id="pd">Prof. Gautam Gutpa has 23 years of experience in the areas of Education, Learning, Training & Development of Soft Skills and Personality Development.He has actively involved in enabling training to reach out of the classroom to the actual workplace. He has undertaken projects involving On the Job training (OJT).
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">	Dr. Krishna Kumar Sinha       </p>
+                <p>MA, Ph.D.
+                </p>
+                <strong>Experience</strong><br>
+                <p id="pd">Dr. Krishna Kumar Sinha was a professor of Business Communication in Delhi University.He has 35 years of work experience both in industry and Academics. He is visiting faulty of various reputed business schools including Asia Pacific Institute of Management.
+                He has published 6 Books.
+                Business Communication
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">	Prof. Nirmal Bhatnagar       </p>
+                <p>MA(Pol. Sc.), SBM(London), Diploma in Journalism, Diploma in Media Operations
+                </p>
+
+                <p id="pd">She had more than 48 years management experience in various capacities with varied job responsibilities covering areas of Social Welfare, Private and Public Sector Companies of National and International repute. She was awarded best Women Entrepreneur Award by the Queen of Netherlands at Netherlands. She also got Mahila Shiromani Award for Best Women Professional. She was Dean(Mass Communication) at JIMS. She is visiting professor at Asia Pacific Institute of Management.
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">	Prof. Pradeep Kumar Sarkar      </p>
+                <p>B.Tech (Bachelor of Electronics & Telecommunication Engineering), MIEEE
+                </p>
+
+                <p id="pd">He is Member of the Institute of Electronics and Electrical Engineers, New Jersey, USA since 1980. He is teaching in several India's top rated management institutes besides conducting training courses since 1996 at Bharatia Vidya Bhavan Management School, Apeejay School of Management, EMPI Business School, The Delhi School of Communication, BIMTECH, NIILM CMS, COSMIC Business School, KGIM Business School, Asia Pacific Institute of Management.
+                  His area of specialization is Principles of Management, Marketing Management, Strategic Marketing, Sales and Distribution Management, Industrial Marketing, Brand Management.
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Prof. Rohan Ubriani      </p>
+                <p>MMS, B.Sc from Delhi University
+                </p>
+
+                <p id="pd">He is associated as full time / adjunct faculty with various Management Institutes like IMT, RNIS, ISBM, IMD, SSCBS (D.U.), JIMS , Asia Pacific Institute of Management & many others. He is the founder CMD of Flame Communications Pvt. Ltd. He had worked as a Director of Nexus Equity.
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Prof. S.K. Gupta     </p>
+                <p>M.Com [Merit Holder],ICWA,CS,Ph.D(pursuing)
+                </p>
+
+                <p id="pd">Prof.S.K.Gupta has done M.Com from Garhwal University in 1979 and was placed first in Merit by securing 80.6%. He is an Associate Member of the Institute of Cost and Works Accountant of India, Fellow Member of the Institute of Company Secretaries of India. He has professional with over 30 years of corporate / training experience including assignment of visiting faculty at various India's Top rated Business Schools for over two and a half decades. He has rich and varied corporate exposure of handling different facets such as Finance, Internal Audit, Company Secretary, HR, Training and development, administration, legal etc.
+
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">Prof. Shaveta Sharma Kukreja      </p>
+                <p>Fellow of IIM Bangalore, BA (Honors) Economics from Shri Ram College of Commerce
+                </p>
+
+                <p id="pd">She is visiting faculty in various Business Schools like Sunstone Business School, Infinity Business School, Lal Bahadur Institute of Management, Dwarka, IILM, Gurgaon. Earlier she was the Assistant Vice President (Collections, Risk & Credit ) in CITY Bank.
+
+                </p>
+            </div>
+            <br>
+              <div class="vf">
+                <p id="vfname">	Dr. Vinod Jangid      </p>
+                <p>MBA, M.Sc (Maths) From DU, UGC-NET, Ph.D(Management)
+                </p>
+
+                <p id="pd">Dr. Vinod Jangid is a Professor of Operations Management. He had done MBA(Marketing) from IMS , Indore, and M.Sc(Maths) from Delhi University.He had done his Ph.D from Dr. B. R. Ambedkar University, Agra in Management. He is also UGC-NET qualified in Management subject. His area of Interest is: Quantitative Techniques, Production Operation Management, Marketing Management, Managerial Economics. He has more than 13 years of work experience in academics field. He is working as a visiting faculty in various reputed business schools like:- AMITY, JIMS, IMT, IGNOU, AIMA, Asia Pacific Institute of Management & Many others
+                </p>
+            </div>
+
+
+
+        </div>
+      <br><br><br><br><br><br>
+
+
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+    <script>
+      function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(51.5, -0.12),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("connectWithUs"), mapOptions);
+      }
+    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</html>

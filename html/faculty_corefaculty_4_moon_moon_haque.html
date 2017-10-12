@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf">Meet The Faculty</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="yourQuery1">
+        <img src="../media/images/yourQuery.png" alt="" >
+      </div>
+
+      <div class="tabc">
+        <div class="tab">
+          <a href="../html/faculty_1_coreFaculty.html"><button class="tablinks" id="abs1" style="background-color:#0d4d95;color:white">Core Faculty </button></a>
+          <a href="../html/faculty_2_visitingFaculty.html"><button class="tablinks" id="abs1">Visiting Faculty </button></a>
+          <a href="../html/faculty_3_managementTeam.html"><button class="tablinks" id="abs1">Management Team </button></a>
+          <a href="../html/faculty_4_internationalFaculty.html"><button class="tablinks" id="abs1">International Faculty </button></a>
+          <a href="../html/faculty_5_guestfaculty.html"><button class="tablinks" id="abs1">Guest Speakers </button></a>
+        </div>
+      </div>
+
+
+      <br><br>
+      <h3 id="fp1">Faculty Profile</h3>
+      <br>
+      <h6 id="ap1"><strong>INDIVISUAL PROFILE</strong></h6>
+
+      <div class="row ">
+        <div class="col r11">
+          <a href=""><img src="../media/facultyimagesnew/moon_moon_haque.jpg" alt="" id="fimage"></a>
+        </div>
+
+        <div class="col">
+
+          <h2 id="fname">Dr. Moon Moon Haque  </h2>
+          <p id="fc1">Associate Professor </p>
+          <p id="fc22">Area : IB & Economics and Strategic Management </p>
+          <p id="fc3">Experience:  8 years</p>
+          <p id="fc44">Ph.D., M.A (Applied Economics), M.A (Economics).</p>
+
+
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col ">
+          <div class="contactDetailsSection">
+            <img src="../media/Contact-Prof.png" alt="" id="cdicon"><p id="contactDetails">Contact Details</p>
+            <p id="mailid"><u>mmhaque@asiapacific.edu  </u><br>011-42094762
+</p>
+            <img id="fbfp" src="../media/images/facebook.png">
+            <img id="gPlusfp" src="../media/images/googleplus.png">
+            <a href="https://www.linkedin.com/in/moon-moon-haque-ph-d-09596515/"><img id="linkedInfp" src="../media/images/linked.png"></a>
+            <img id="pinterestfp" src="../media/images/pinterest.png">
+            <img id="twitterfp" src="../media/images/twitter.png">
+            <img id="youtubefp" src="../media/images/youtube.png"><br>
+            <p><button type="button" name="button" class="btn" id="adobedownloadbutton"><a href="#">Download Full Profile</a></button></p>
+            <p id="aicon"><img src="../media/adobe.png" alt="" id="adobeicon"></p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'po')" id="abcde">Profile Overview</button>
+        <button class="tablinks" onclick="openCity(event, 'rp')" id="abcde">Research and Publication</button>
+        <button class="tablinks" onclick="openCity(event, 'ar')" id="abcde">Areas of Interest</button>
+        <button class="tablinks" onclick="openCity(event, 'aa')" id="abcde">Experience</button>
+        <button class="tablinks" onclick="openCity(event, 'mdp')" id="abcde">Achievement & Awards</button>
+      </div>
+
+        <div id="po" class="tabcontent" style="display:block">
+          Dr. Moon Moon Haque is an Associate Professor (Economics) at Asia-Pacific Institute of Management. Dr. Haque earned his Ph.D. in Business Administration (Concentration: Economics) from The University of Memphis, USA. He also had an M.A (Applied Economics) from the same university and, another M.A (Economics) from Visva-Bharati University, Santiniketan, India.
+
+  Dr. Haque is an applied economics researcher and his research agenda mostly focused on the evaluation and recommendation of policy issues in the fields of health economics and labor economics, with a direct objective toward to alleviate inequality, and to promote efficient and effective economic policies. Moreover, he has a keen interest in the Indian macro economy, especially the growth of stock/financial market and pharmaceutical industries. He is also the Editor of Asia Pacific Journal of Management Research & Innovation (SAGE Pub.).</div>
+
+        <div id="rp" class="tabcontent">
+          Haque, M. M and Chang, C. F., "Does Coverage of Health Insurance Contribute to Obesity? An Empirical Investigation among American Young Adults". (under submission)
+          <br><br>
+          . Haque, M. M and Chang, C. F., "Determinants of Out-of-Pocket Healthcare Expenses in Bangladeshi Healthcare System". (under submission)
+          <br><br>
+          . Haque, M. M., "Inequalities in Out-of-Pocket Health Financing and its effect on Health Outcomes: The case of Bangladesh". (working paper)
+          <br><br>
+          . Haque, M. M., "Government Financing on Health and Health-related Areas in India during 1992-2006 and Disparities in Health Outcomes". (working paper)
+          <br><br>
+          . Haque, M. M., "Does Gender Inequality matter? A Cross-sectional Analysis across Asian Regions". (working paper)
+          <br><br>
+          . Haque, M. M., "Stock Market Development and Economic Growth: A Time-series Analysis for Indian macro Economy". (work-in-progress)
+          <br><br>
+          . Haque, M. M and Datta, A., "Does it Pays off to follow your neighbors Policy? - Impact of Canadian Free Trade Agreement with Chile, Costa Rica and Israel". (work-in-progress)
+          <br><br>
+          . Haque, M. M and Datta, A., "Difference-in-Difference Approach for Evaluation of National Rural Health Mission Program in India: A near perfect Case of Natural Experiments". (work-in-progress)
+          <br><br>
+          Conference/Seminars:
+          <br><br>
+          . 77th Midwest Economics Association Annual Meeting, Columbus, OH, USA. [2013]
+          <br><br>
+          . Department of Economics Seminar Series, The University of Memphis, Memphis, TN, USA. [Spring 2013, Fall 2012, Spring 2012]
+          <br><br>
+          . 82nd Southern Economic Association Conference, New Orleans, LA, USA. [2012]
+            <br><br>
+          . 49th Missouri Valley Economic Association Annual Meeting, Memphis, TN, USA. [2012]
+          <br><br>
+          . 87th Western Economic Association International Annual Conference, San Francisco, CA, USA. [2012]
+          <br><br>
+          . 76th Midwest Economics Association Annual Meeting, Evanston, IL, USA. [2012]
+          <br><br>
+          . The 24th Annual Student Research Forum, The University of Memphis, Memphis, TN, USA. [2012]
+
+
+          <br><br>
+          <h5><strong>Consultancy & MDPs</strong></h5>
+          Prospectus & Manuscript Reviewer: Edited several chapters of the book "Economics: For Business and Society" by Stephen Rubb (Sacred Heart University) and Scott B. Sumner (Bentley University) and, Contributed to "Development of Business Economics Prospectus", and Edited several Chapters of the book "CoreEconomics" by Gerald W. Stone (MSC of Denver) and Eric P. Chiang (FAU); Worth Publishing Group, New York, NY 10110, in Spring 2013 & Summer 2013 respectively.
+          <br><br>
+          Guest Chapter Editor; Member of "Engaged Principles of Economics Instructors & Norton's Economics Team": Edited several Chapters of "Principles of Economics" by Dirk Mateer (Penn State Univ.) and Lee Coppock (Univ. of Virginia) and Contributed to development of online learning platform for Principles of Economics; W. W. Norton & Co., Inc., NY, fall 2012.
+
+
+        </div>
+
+        <div id="ar" class="tabcontent">
+          Research Interest: Quantitative and qualitative research, Health policy analysis, Public program evaluation and, Applied Economics.
+  Teaching Interest: Microeconomics and Macroeconomics, Heath Economics, Economics of Pharmaceutical Industry, Labor Economics, Applied Micro-econometrics and, Financial Management.
+    </div>
+
+        <div id="aa" class="tabcontent">
+          8 years of teaching experience and 7 years of research experience.
+        </div>
+
+        <div id="mdp" class="tabcontent">
+          Graduate Fellowship; The University of Memphis, Department of Economics, 2009 - 2013.
+          <br><br>
+          Summer Teaching Fellowship ($1860 & $2125); The University of Memphis, Department of Economics, 2012 & 2013.
+          <br><br>
+          Research Grant ($1350 and $1000); The University of Memphis, Department of Economics; in summer 2012 & summer 2013 respectively.
+          <br><br>
+          Travel Grant ($440); The University of Memphis, Department of Economics, Spring 2013.
+          <br><br>
+          Travel Grant ($300); The University of Memphis, Morgan Morton Travel fund, Spring 2013.
+          <br><br>
+          Travel Grant ($224); The University of Memphis, Student Government Association, Fall 2012.
+          <br><br>
+          Travel Grant ($500); The University of Memphis, Department of Economics, Spring 2012.
+          <br><br>
+          Prospectus & Manuscript Reviewers' Honorarium ($200 and $700); Worth Publishing Group, New York, NY 10110; in spring 2013 & summer 2013 respectively.
+          <br><br>
+          Guest Editors' Honorarium ($550); W. W. Norton & Co., Inc., New York, NY 10110, Fall 2012.
+          <br><br>
+          Merit-based Scholarship (Top 3 students in Economics Honors program); Visva-Bharati University, Department of Economics & Politics, 1999/2000, 2000/2001.
+ </div>
+
+
+
+
+
+
+        <br><br><br><br>
+        <div class="lowerSection">
+          <br><br>
+          <p id="description">
+            <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+            <br><br>
+            Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+          <br>
+          <p id="accr">Accreditions:</p>
+          <img src="../media/images/accc1.png" alt="" id="accimg1">
+          <img src="../media/images/accc2.png" alt="" id="accimg">
+          <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+          <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+          <br><br>
+          <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+          <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+          <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+          <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+          <div class="f4">
+            <ul type="none">
+              <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+              <br>
+              <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+              <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+              <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+              <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+              <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+              <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+            </ul>
+          </div>
+          <div class="f5">
+            <ul type="none">
+              <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+              <br>
+              <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+              <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+              <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+              <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+              <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+            </ul>
+          </div>
+          <div class="f6">
+              <ul type="none">
+                <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+                <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+                <br><br><br>
+              </ul>
+          </div>
+          <div class="f7">
+            <ul type="none">
+              <li id="fhh"><strong>OTHER LINKS</strong></li>
+              <br>
+              <li><a href="../html/" id="flink">Download Prospectus</a></li>
+              <li><a href="../html/" id="flink">Privacy Policy</a></li>
+              <li><a href="../html/" id="flink">Site Terms</a></li>
+              <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+              <li><a href="../html/" id="flink">Site Map</a></li>
+              <br><br><br><br><br><br><br>
+            </ul>
+          </div>
+          <div class="f8">
+
+              <p><strong>REQUEST A CALL BACK</strong></p>
+              <br>
+              <form id="myForm">
+                <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+                <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+              </form>
+
+          </div>
+          <div class="footersocialMediaLinks">
+            <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+            <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+            <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+            <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+            <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+            <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+          </div>
+        </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

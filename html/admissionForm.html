@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <title></title>
+    <style media="screen">
+
+        ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+              color: black;
+          }
+
+    </style>
+    <script type="text/javascript">
+        function showdata(){
+          var fname=$('#inputOfApplicationForm').val();
+          var fname1=$('#inputOfApplicationForm1').val();
+          var fname2=$('#inputOfApplicationForm2').val();
+          var fname3=$('#inputOfApplicationForm3').val();
+          var fname4=$('#inputOfApplicationForm4').val();
+          var fname5=$('#inputOfApplicationForm5').val();
+          var fname6=$('#inputOfApplicationForm6').val();
+          var fname7=$('#inputOfApplicationForm7').val();
+          var fname8=$('#inputOfApplicationForm8').val();
+          var fname9=$('#inputOfApplicationForm9').val();
+          var fname10=$('#inputOfApplicationForm10').val();
+          var fname11=$('#inputOfApplicationForm11').val();
+          var fname12=$('#inputOfApplicationForm12').val();
+          var fname13=$('#inputOfApplicationForm13').val();
+          var fname14=$('#inputOfApplicationForm14').val();
+          var fname15=$('#inputOfApplicationForm15').val();
+          var fname16=$('#inputOfApplicationForm16').val();
+          var fname17=$('#inputOfApplicationForm17').val();
+          var fname18=$('#inputOfApplicationForm18').val();
+          var fname19=$('#inputOfApplicationForm19').val();
+          var fname20=$('#inputOfApplicationForm20').val();
+          var fname21=$('#inputOfApplicationForm21').val();
+          var fname22=$('#inputOfApplicationForm22').val();
+          var fname23=$('#inputOfApplicationForm23').val();
+          var fname24=$('#inputOfApplicationForm24').val();
+          var fname25=$('#inputOfApplicationForm25').val();
+          var fname26=$('#inputOfApplicationForm26').val();
+          var fname27=$('#inputOfApplicationForm27').val();
+          var fname28=$('#inputOfApplicationForm28').val();
+          var fname29=$('#inputOfApplicationForm29').val();
+          var fname30=$('#inputOfApplicationForm30').val();
+          var fname31=$('#inputOfApplicationForm31').val();
+          var fname32=$('#inputOfApplicationForm32').val();
+          var fname33=$('#inputOfApplicationForm33').val();
+          var fname34=$('#inputOfApplicationForm34').val();
+          var fname35=$('#inputOfApplicationForm35').val();
+          var fname36=$('#inputOfApplicationForm36').val();
+          var fname37=$('#inputOfApplicationForm37').val();
+          var fname38=$('#inputOfApplicationForm38').val();
+          var fname39=$('#inputOfApplicationForm39').val();
+          var fname40=$('#inputOfApplicationForm40').val();
+          var fname41=$('#inputOfApplicationForm41').val();
+          var fname42=$('#inputOfApplicationForm42').val();
+          var fname43=$('#inputOfApplicationForm43').val();
+          var fname44=$('#inputOfApplicationForm44').val();
+          var fname45=$('#inputOfApplicationForm45').val();
+          var fname46=$('#inputOfApplicationForm46').val();
+          var fname47=$('#inputOfApplicationForm47').val();
+          var fname48=$('#inputOfApplicationForm48').val();
+          var fname49=$('#inputOfApplicationForm49').val();
+          var fname50=$('#inputOfApplicationForm50').val();
+          var fname51=$('#inputOfApplicationForm51').val();
+          var fname52=$('#inputOfApplicationForm52').val();
+          var fname53=$('#inputOfApplicationForm53').val();
+          var fname54=$('#inputOfApplicationForm54').val();
+          var fname55=$('#inputOfApplicationForm55').val();
+          var fname56=$('#inputOfApplicationForm56').val();
+          var fname57=$('#inputOfApplicationForm57').val();
+          var fname58=$('#inputOfApplicationForm58').val();
+          var fname59=$('#inputOfApplicationForm59').val();
+          var fname60=$('#inputOfApplicationForm60').val();
+          var fname61=$('#inputOfApplicationForm61').val();
+          var fname62=$('#inputOfApplicationForm62').val();
+          var fname63=$('#inputOfApplicationForm63').val();
+          var fname64=$('#inputOfApplicationForm64').val();
+          var fname65=$('#inputOfApplicationForm65').val();
+          var fname66=$('#inputOfApplicationForm66').val();
+
+          var record=
+          {name:fname,
+            name1:fname1,
+            name2:fname2,
+            name3:fname3,
+            name4:fname4,
+            name5:fname5,
+            name6:fname6,
+            name7:fname7,
+            name8:fname8,
+            name9:fname9,
+            name10:fname10,
+            name11:fname11,
+            name12:fname12,
+            name13:fname13,
+            name14:fname14,
+            name15:fname15,
+            name16:fname16,
+            name17:fname17,
+            name18:fname18,
+            name19:fname19,
+            name20:fname20,
+            name21:fname21,
+            name22:fname22,
+            name23:fname23,
+            name24:fname24,
+            name25:fname25,
+            name26:fname26,
+            name27:fname27,
+            name28:fname28,
+            name29:fname29,
+            name30:fname30,
+            name31:fname31,
+            name32:fname32,
+            name33:fname33,
+            name34:fname34,
+            name35:fname35,
+            name36:fname36,
+            name37:fname37,
+            name38:fname38,
+            name39:fname39,
+            name40:fname40,
+            name41:fname41,
+            name42:fname42,
+            name43:fname43,
+            name44:fname44,
+            name45:fname45,
+            name46:fname46,
+            name47:fname47,
+            name48:fname48,
+            name49:fname49,
+            name50:fname50,
+            name51:fname51,
+            name52:fname52,
+            name53:fname53,
+            name54:fname54,
+            name55:fname55,
+            name56:fname56,
+            name57:fname57,
+            name58:fname58,
+            name59:fname59,
+            name60:fname60,
+            name61:fname61,
+            name62:fname62,
+            name63:fname63,
+            name64:fname64,
+            name65:fname65,
+            name66:fname66,
+            };
+          console.log(record);
+          var json= JSON.stringify(record);
+          console.log(json);
+          alert("Thank You . We Will Get Back To You Shortly.");
+          var form = document.getElementById("myForm");
+          form.reset();
+        }
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/images/alumniCounterLogo.png" alt="" id="facultyLogo1">
+      </div>
+      <div class="fbn">
+        <h2 class="mf1">About Us</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <br><br><br><br>
+      <h2 id="fpl">Application Form </h2>
+
+      <div class="aboutUsContenttt">
+        <div class="applicationform dropdown" style="overflow-x:hidden">
+          <br>
+              <center><h3 style="color:black">Personal Information</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:50%" id="inputOfApplicationForm"><br><br>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Middle Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:50%" id="inputOfApplicationForm1"><br><br>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:50%" id="inputOfApplicationForm2"><br><br>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Date of Birth:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:50%" id="inputOfApplicationForm3"><br><br>
+                </div>
+              </div>
+
+
+
+
+              <div class="row" style="margin-left:3.8%;margin-right:5%">
+                <div class="col">
+                  <h5 style="margin-left:6.25%;color:black">Gender</h5>
+                  <select name="Options" style="padding:2%;width:98%;margin-left:6.25%" id="inputOfApplicationForm4">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+                  <h5 style="margin-left:6.25%;color:black">Catagory</h5>
+                  <select name="Options" style="padding:2%;width:98%;margin-left:6.25%" id="inputOfApplicationForm5">
+                    <option value="General">General</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                    <option value="OBC(Non-Creamy)">OBC(Non-Creamy)</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+                  <br>
+                  <input type="text" class="form-control" placeholder="Nationality:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:98%;font-size:16px;margin-left:3%;height:35%;margin-top:2%" id="inputOfApplicationForm6"><br><br>
+                </div>
+                <div class="col">
+                  <br>
+                  <input type="text" class="form-control" placeholder="Domicile State:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:98%;font-size:16px;margin-left:3%;height:35%;margin-top:2%" id="inputOfApplicationForm7"><br><br>
+                </div>
+              </div>
+              <br><br>
+              <center><h3 style="color:black">Address Details</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Correspondence Address:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm8"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Town/City:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm9"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="District:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm10"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Country:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm11"><br><br>
+
+                </div>
+              </div>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="State:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm12"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Pincode / Zipcode:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm13"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Mobile No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm14"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Telephone STD Code:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm15"><br><br>
+
+                </div>
+              </div>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Telephone Number:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm16"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Email Address:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm17"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Alternate Email:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm18"><br><br>
+
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+              <br><br>
+              <center><h3 style="color:black">Parent Details</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Father's Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm19"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Mother's Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm20"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Father Occupation:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm21"><br><br>
+
+                </div>
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Mother's Occupation:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm22"><br><br>
+
+                </div>
+              </div>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="padding:1%;width:100%;font-size:16px;height:50%" type="text" class="form-control" placeholder="Total Annual Income (of both the parents):" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:35%;font-size:16px" id="inputOfApplicationForm23"><br><br>
+
+                </div>
+                <div class="col">
+
+                </div>
+
+              </div>
+
+
+
+                <br><br>
+              <center>  <h3 style="color:black">Work Experience (as on date)</h3></center>
+
+              <h5 style="margin-left:6.25%;color:black">I have a work Experience</h5>
+              <select name="Options"  style="padding:0.5%;width:42.5%;margin-left:6.25%" id="inputOfApplicationForm24">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select><br><br>
+
+
+              <br><br>
+
+              <center><h3 style="color:black">Photo</h3></center>
+
+              <div class="row" style="text-align:center">
+                <div class="col">
+                  <h5 style="color:black">Upload Photo (Max Size 150 Kb - jpeg, gif, png or bmp)</h5>
+                  <br>
+                  <input type="file" name="" value="" id="inputOfApplicationForm25">
+                  <br>
+                </div>
+                <div class="col">
+                  <h5 style="color:black">Upload Signature (Max Size 150 Kb - jpeg, gif, png or bmp)</h5>
+                  <br>
+                  <input type="file" name="" value="" id="inputOfApplicationForm26"><br><br>
+                  <br>
+                </div>
+              </div>
+
+              <br><br><br>
+
+              <center><h6 style="color:black"><u>Note:Please include all subjects of class 10th /12th wherein marks are awarded for calculation of total marks scored. Not doing so will result in rejection of candidature.</u></h6></center>
+              <br><br><br>
+              <center><h3 style="color:black">Qualification Details (10th Standard)</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input style="width:100%;font-size:16px;height:30%" type="text" class="form-control" placeholder="Board:" aria-label="Username" aria-describedby="basic-addon1"  id="inputOfApplicationForm27"><br><br>
+                </div>
+                <div class="col">
+                  <input style="width:100%;font-size:16px;height:30%" type="text" class="form-control" placeholder="Total Marks Obtained:" aria-label="Username" aria-describedby="basic-addon1" id="inputOfApplicationForm28">
+                  <br><input style="width:100%;font-size:16px;height:30%" type="text" class="form-control" placeholder="out of:" aria-label="Username" aria-describedby="basic-addon1"  id="inputOfApplicationForm29"><br><br>
+                </div>
+                <div class="col">
+                  <input style="width:100%;font-size:16px;height:30%" type="text" class="form-control" placeholder="Percentage:" aria-label="Username" aria-describedby="basic-addon1"  id="inputOfApplicationForm30"><br><br>
+                </div>
+              </div>
+              <h5 style="margin-left:6.25%;color:black">Mode</h5>
+              <select name="Options"  style="padding:0.5%;width:42.5%;margin-left:6.25%" id="inputOfApplicationForm31">
+                <option value="Regular">Regular</option>
+                <option value="Distance Learning Program">Distance Learning Program</option>
+                <option value="Correspondence">Correspondence</option>
+              </select><br><br><br>
+
+
+
+              <br><br>
+              <center><h3 style="color:black">Qualification Details (12th Standard)</h3></center><br>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Board:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm32"><br><br>
+
+                </div>
+                <div class="col">
+                  <select name="Options"  style="padding:1%;width:100%;height:35%" id="inputOfApplicationForm33">
+                    <option value="Science">Science</option>
+                    <option value="Arts">Arts</option>
+                    <option value="Commerce">Commerce</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Total Marks Obtained:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm34"><br>
+                  <input type="text" class="form-control" placeholder="out of:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm35"><br><br>
+
+                </div>
+              </div>
+              <br>
+              <div class="row"style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Percentage:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:50%" id="inputOfApplicationForm36"><br><br>
+                </div>
+                <div class="col">
+                  <h5 style="margin-top:-10%;color:black">Mode</h5>
+                  <select name="Options" style="padding:1%;width:100%;height:50%" id="inputOfApplicationForm37">
+                    <option value="Regular">Regular</option>
+                    <option value="Distance Learning Program">Distance Learning Program</option>
+                    <option value="Correspondence">Correspondence</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+
+
+
+              <br><br><br>
+
+              <center><h3 style="color:black">Qualification Details (Bachelor Degree)</h3></center>
+              <br>
+              <h5 style="margin-left:6.25%;color:black">Do you have a "PASS" result of Graduation i.e. no uncleared paper (s) ?  </h5>
+              <select name="Options" style="padding:0.5%;width:42.5%;margin-left:6.25%" id="inputOfApplicationForm38">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select><br><br><br>
+              <h5 style="margin-left:6.25%;color:black">Are you appearing in final year Graduation Examination (Ist attempt) in summer 2016 ?  </h5>
+              <select name="Options"  style="padding:0.5%;width:42.5%;margin-left:6.25%" id="inputOfApplicationForm39">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select><br><br><br>
+
+
+
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder=" %(out of 100)   or   cgpa (out of 10) :" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm40"><br><br>
+
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Bachelors Degree:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm41"><br><br>
+                  <br><br>
+                </div>
+                <div class="col">
+                  <h5 style="margin-top:-10%;color:black">Mode</h5>
+                  <select name="Options"  style="padding:1%;width:100%;height:35%" id="inputOfApplicationForm42">
+                    <option value="Regular">Regular</option>
+                    <option value="Distance Learning Program<">Distance Learning Program</option>
+                    <option value="Correspondence">Correspondence</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row"style="margin-left:5%;margin-right:5%;margin-top:-3%">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="University Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm43"><br><br>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="College Name:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:35%" id="inputOfApplicationForm44"><br><br>
+
+                  <br><br>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <br><br>
+              <center><h3 style="color:black">Qualification Details (Test Detail)</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <h5 style="color:black">CAT</h5>
+                  <input type="text" class="form-control" placeholder="Appeared in Year:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm45"><br><br>
+                  <input type="text" class="form-control" placeholder="Registration No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm46"><br><br>
+                  <input type="text" class="form-control" placeholder="Percentile/Composite Score:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm47"><br><br>
+
+                </div>
+                <div class="col">
+                  <h5 style="color:black">XAT</h5>
+                  <input type="text" class="form-control" placeholder="Appeared in Year:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm48"><br><br>
+                  <input type="text" class="form-control" placeholder="Registration No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm49"><br><br>
+                  <input type="text" class="form-control" placeholder="Percentile/Composite Score:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm50"><br><br>
+
+                </div>
+                <div class="col">
+                  <h5 style="color:black">MAT</h5>
+                  <input type="text" class="form-control" placeholder="Appeared in Year:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm51"><br><br>
+                  <input type="text" class="form-control" placeholder="Registration No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm52"><br><br>
+                  <input type="text" class="form-control" placeholder="Percentile/Composite Score:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm53"><br><br>
+
+                </div>
+              </div>
+              <br>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <h5 style="color:black">CMAT</h5>
+                  <input type="text" class="form-control" placeholder="Appeared in Year:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm54"><br><br>
+                  <input type="text" class="form-control" placeholder="Registration No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm55"><br><br>
+                  <input type="text" class="form-control" placeholder="Percentile/Composite Score:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm56"><br><br>
+
+                </div>
+                <div class="col">
+                  <h5 style="color:black">GMAT</h5>
+                  <input type="text" class="form-control" placeholder="Appeared in Year:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm57"><br><br>
+                  <input type="text" class="form-control" placeholder="Registration No:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm58"><br><br>
+                  <input type="text" class="form-control" placeholder="Percentile/Composite Score:" aria-label="Username" aria-describedby="basic-addon1" style="padding:1%;width:100%;font-size:16px;height:15%" id="inputOfApplicationForm59"><br><br>
+
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+              <br>  <br><br>
+              <center><h3 style="color:black">Sports/ ECA (Extra Curricular Activities)</h3></center><br>
+
+              <select name="Options"  style="padding:0.5%;width:42.5%;margin-left:6.25%" id="inputOfApplicationForm60">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select><br><br><br><br><br>
+              <center><h3 style="color:black">How did you come to know about Asia-Pasific Institute of Management ?</h3></center><br>
+              <input id="inputOfApplicationForm61" type="text" class="form-control" placeholder="Do let Us know..." aria-label="Username" aria-describedby="basic-addon1" style="padding:0.7%;width:42.5%;font-size:16px;margin-left:6.25%"><br><br>
+
+
+              <br><br><br>
+              <center><h3 style="color:black">Programme Preference</h3></center>
+
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <h6 style="color:black">Programme Preference 1</h6>
+                  <select id="inputOfApplicationForm62" name="Options"  style="padding:1%;width:100%">
+                    <option value="PGDM">PGDM</option>
+                    <option value="PGDM Marketing">PGDM Marketing</option>
+                    <option value="PGDM IB">PGDM IB</option>
+                    <option value="PGDM BFS" selected>PGDM BFS</option>
+                    <option value="Certificate Course in Statistical Analysis using IBM SPSS">Certificate Course in Statistical Analysis using IBM SPSS</option>
+                    <option value="Executive PGDM" selected>Executive PGDM</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+                  <h6 style="color:black">Programme Preference 2</h6>
+                  <select id="inputOfApplicationForm63" name="Options"  style="padding:1%;width:100%">
+                    <option value="PGDM">PGDM</option>
+                    <option value="PGDM Marketing">PGDM Marketing</option>
+                    <option value="PGDM IB">PGDM IB</option>
+                    <option value="PGDM BFS" selected>PGDM BFS</option>
+                    <option value="Certificate Course in Statistical Analysis using IBM SPSS">Certificate Course in Statistical Analysis using IBM SPSS</option>
+                    <option value="Executive PGDM" selected>Executive PGDM</option>
+                  </select><br><br>
+                </div>
+              </div>
+              <div class="row" style="margin-left:5%;margin-right:5%">
+                <div class="col">
+                  <h6 style="color:black">Programme Preference 3</h6>
+                  <select  id="inputOfApplicationForm64" name="Options"  style="padding:1%;width:100%">
+                    <option value="PGDM">PGDM</option>
+                    <option value="PGDM Marketing">PGDM Marketing</option>
+                    <option value="PGDM IB">PGDM IB</option>
+                    <option value="PGDM BFS" selected>PGDM BFS</option>
+                    <option value="Certificate Course in Statistical Analysis using IBM SPSS">Certificate Course in Statistical Analysis using IBM SPSS</option>
+                    <option value="Executive PGDM" selected>Executive PGDM</option>
+                  </select><br><br>
+                </div>
+                <div class="col">
+                  <h6 style="color:black">Programme Preference 4</h6>
+                  <select id="inputOfApplicationForm65" name="Options" style="padding:1%;width:100%">
+                    <option value="PGDM">PGDM</option>
+                    <option value="PGDM Marketing">PGDM Marketing</option>
+                    <option value="PGDM IB">PGDM IB</option>
+                    <option value="PGDM BFS" selected>PGDM BFS</option>
+                    <option value="Certificate Course in Statistical Analysis using IBM SPSS">Certificate Course in Statistical Analysis using IBM SPSS</option>
+                    <option value="Executive PGDM" selected>Executive PGDM</option>
+                  </select><br><br>
+                </div>
+              </div>
+
+              <br><br><br><br>
+
+
+              <center><h3 style="color:black">Declaration by Candidate</h3  ></center><br>
+            <h6 style="margin-left:6.25%;margin-right:6.25%;color:black">I certify that I, (a) Satisfy the eligibility requirements of the programme(s) I have applied for and (b) Have furnished complete and correct information. I also certify that photograph uploaded/pasted on this form is the latest and I also agree to abide by Asia-Pacific Institute of Management’s decisions on all matters regarding the application. In case of any discrepancy Asia-Pacific Institute of Management has full right to cancel my candidature. I undertake to produce the final Graduation degree and mark sheets latest by 30th September 2017, failing which Asia-Pacific Institute of Management will be free to cancel my admission.</h6>
+            <br><input type="checkbox" name="I agree" value="I agree" id="inputOfApplicationForm66" style="margin-left:6.25%;color:black"> <p style="color:black;margin-left:8.5%;margin-top:-2.1%">I Agree</p>
+            <br><br>
+            <input  type="button" name="Save details and Proceed to Payment" value="Save details and Proceed to Payment" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:6.25%;padding:0.5%;width:27%">
+            <br><br><br>
+
+        </div>
+      </div>
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

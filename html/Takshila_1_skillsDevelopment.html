@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/images/alumniCounterLogo.png" alt="" id="facultyLogo1">
+      </div>
+      <div class="fbn">
+        <h2 class="mf1">About Us</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+
+      <div id="admissionQuery1">
+        <img src="../media/images/yourQuery.png" alt="" >
+      </div>
+      <br><br><br><br>
+      <h3 id="fpl">Takshila - Skills Development </h3>
+
+      <div class="aboutUsContent">
+        <h5><strong><u>DELHI GOVERNMENT</u></strong></h5>
+        <p>
+          <br>
+          <img src="../media/takshila/SWARN.jpg" alt="">
+          <h6><strong>
+              Swarn Jayanti Shahri Rojgar Yojna – Delhi Govt. </strong> </h6>
+
+              The very first intervention of APIM into Skill Development and there has been No looking back since then! Its been a year since we started operations and developed one centre at our very own campus in Jasola and then diversified to 6 other locations to cater to the requirement. over the year.
+              <br><br>
+              There are already 400 students trained and placed in Retail and currently 500 are undergoing training.
+              Students are being trained on Retail Management as of now ,however we intend to go into other trades on the basis of our Skill sets and expertise.
+              <br><br><br>
+              <h6><strong>Placements</strong></h6>
+
+              The Placement record for the past Year have been with companies like CCD, Subway, Dominos, Pantaloons, Big Apple, Vishal Mega Mart.
+              <br><br>
+              The number of students trained in the past year have been 357 out of which 270 have already been placed with 87 in the pipeline.
+
+        </p>
+        <br>
+        <h5><strong><u>RSLDC</u></strong></h5>
+        <p>
+          <br>
+          <img src="../media/takshila/t1.jpg" alt="">
+          <h6><strong>
+              ELSTP Program - RSLDC </strong> </h6>
+
+              Looking a little closely into the ELSTP program, wherein we are their training partners for uplifting and providing employment opportunites. The agenda is to train 21600 students in various trades  like Retail Management, Hospitality, Travel & Tourism etc. <br><br><br>
+              <h6><strong>Placements</strong></h6>
+
+              The Placement record for the past Year have been with companies like CCD, Subway, Dominos, Pantaloons, Big Apple, Vishal Mega Mart, Mansingh Towers ,ShivShakti Pvt. Ltd, Vertex BPO. The total trained in the last quarter have been 174 with 123 being placed and 51 in process
+        </p>
+        <br>
+        <h5><strong><u>MOMA</u></strong></h5><br>
+        <p>
+          <img src="../media/takshila/t2.jpg" alt=""><br><br>
+          <h6><strong>Seekho Aur Kamao – Ministry of Minority Affairs</strong></h6>
+          The most prestigious project of MoM, which intends to train and make minority youth employable or Self employed.
+
+It has been our privilege to be involved in this project to train & place 400 students over 2013-2014 in MES Courses.
+
+The project is  undergoing operations in Delhi over 7 locations.<br><br>
+          <h6><strong>Nai Roshni</strong></h6><br>
+          <img src="../media/takshila/t3.jpg" alt="" width="100%"><br><br>
+          <strong>About Nai Roshni</strong><br>
+            Empowerment of women per se is not only essential for equity, but also constitutes a critical element in our fight for poverty reduction, economic growth and strengthening of civil society. Women and children are always the worst sufferers in a poverty stricken family and need support. Empowering women, especially mothers, is even more important as it is in homes that she nourishes, nurture and moulds the character of her offspring.Keeping this in view, Ministry of Minority Affairs has reformulated the scheme in 2011-12 and renamed it as “Scheme for Leadership Development of Minority Women”. The implementation of the Scheme started in 2012-13.
+             <br><br>
+            <strong>Target Group and Distribution of Target</strong>
+             <br>
+            Target Group includes women belonging to all minorities notified under Section 2 (c) of the National Commission for Minorities Act, 1992 viz. Muslims, Sikhs, Christians, Buddhists and Zoroastrians (Parsis). the scheme permits a mix of women from non-minority communities not exceeding 25% of a project proposal.
+              <br><br>
+            We at AIM have undertaken to train 125 such women in areas around Begampur & Mongolpuri of Delhi which is a minority dominant area where as per a ground survey,women do want to take up education and understand the concept of spreading awareness in the family.
+             <br><br>
+            <strong>Objective : </strong><br>
+
+            The objective of the scheme is to empower and instill confidence among minority women, including their neighbours from other communities living in the same village/locality, by providing knowledge, tools and techniques for interacting with Government systems, banks and other institutions at all levels.
+             <br><br>
+            <strong>Leadership Development Training Modules</strong><br>
+
+            Specific training modules based on local issues/needs are being addressed as follows :
+             <br><br>
+            <strong>Learning Objectives -  </strong><br>
+
+            1. To understand common childhood illness & immunization  <br>
+            2. Family planning & its methods     <br>
+            3. Government mechanism     <br>
+            4. Health & Hygiene      <br>
+            5. Home Management and how to adopt it     <br>
+            6. Issues related to women      <br>
+            7. Life skills in daily life & how to attain them for better life <br>
+            8. Leadership of Women  <br>
+            9. Schemes/Programmes for welfare of Minorities   <br>
+            10. Public distribution system<br>
+            11. To educate on the Government schemes available for minorities<br>
+            12. Waste Water Sanitation and Solid Waste Disposal<br>
+
+            <br>
+            <strong>Picture Gallery</strong>
+            <div class="row">
+              <div class="col">
+                <img src="../media/takshila/t11.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t22.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t33.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t44.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="../media/takshila/t55.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t66.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t77.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t88.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="../media/takshila/t99.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t1010.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t1111.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t1212.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="../media/takshila/t1313.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/t1414.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="" alt="">
+              </div>
+              <div class="col">
+                <img src="" alt="">
+              </div>
+            </div>
+            <br><br>
+            <b><i> <a href="#">Participant List</a></i><br><br>
+            <i><a href="#">Participants' Testimonials</a> </i></b>
+
+        </p>
+        <br>
+        <h5><strong><u>CBSE</u></strong></h5>
+        <br>
+        <strong>Need for Capacity building Programs in Schools</strong><br>
+
+            Quality concerns in school education are among the priorities of CBSE as they play a pivotal role in the development of the country. The Board is committed to make provisions for various training programmes for teachers and principals to enhance their understanding of curriculum and delivery mechanism and other professional qualities. T he training of the teachers assumes even greater significance in the wake of Right to Free and Compulsory Education Act-2009 to ensure the target achievement as per the proposed teacher student ratio proposed in the Act.<br><br>
+             <br>
+            Outcomes Of The Capacity Building Programs:<br>
+             <br>
+            <strong>Code: C.9: Leadership Training for Teachers: </strong>
+             <br>
+            At the end of the 6 hour session, the Teachers will be able to:
+             <br>
+            	Understand the importance of Leadership as a Teacher <br>
+            	Analyze changes in behaviour and attitude when switching tasks and their relevance<br>
+            	Addressing the demands of all (Management, Students, Parents & Colleagues)<br>
+            	Choosing the right time to hop between the roles of a mentor, leader and a teacher<br>
+
+            <br><strong>Code: D.3: Leadership & Innovation for Students:</strong><br>
+
+            We would be doing a 4 hour ‘Leadership and Innovation’ workshop for the students.
+             <br>
+            The students would be prepared to:<br>
+
+            	Realize their strengths.<br>
+            	Think and work like a leader.<br>
+            	Realize innovation is possible.<br>
+            	Learn to handle crisis and overcome obstacles.<br>
+
+            <br><br><strong>Benefits to Schools:</strong><br><br>
+
+            	<strong>Leadership Training for Teachers:</strong> <br>
+
+            The workshop on ‘Leadership’ helps teachers understand their role as a leader who encourages students and becomes their role model. A teacher has to play several roles besides being a teacher. She has to co-ordinate with students, management, colleagues and parents. So the workshop helps the teachers to do multi-tasking, manageself while managing students, management and other external stake holders along with managing time and set priorities. As a result it helps the teachers to meet different calls with enthusiasm and without tension.
+             <br>
+            	<br><strong>Leadership & Innovation Training for Students: </strong>
+             <br>
+            The workshop on ‘Leadership and Innovation’ helps students identify their potential to lead and become creative. According to Denis Waitley ,
+             <br>
+            “You have all the reason in the world to achieve your grandest dreams. Imagination plus innovation equals realization. ”
+             <br>
+            The workshop helps students realize that achieving dreams is possible. Though, mere dreaming is not enough. Rather the inner urge to do things differently and help others, must exist. This workshop provides impetus to students to start thinking and working differently.
+            <br><br><br>
+            <h5><strong><u>OUR CENTERS</u></strong></h5>
+            <div class="row">
+              <div class="col">
+                <img src="../media/takshila/l1.jpg" alt="" width="100%">
+              </div>
+              <div class="col">
+                <img src="../media/takshila/l5.jpg" alt="" width="100%" height="100%">
+              </div>
+            </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

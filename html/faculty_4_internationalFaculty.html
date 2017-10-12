@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf">Meet The Faculty</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="admissionQuery1">
+        <img src="../media/images/admissionquery.png" alt="" >
+      </div>
+
+      <div class="tabc">
+        <div class="tab">
+          <a href="../html/faculty_1_coreFaculty.html"><button class="tablinks" id="abs1" >Core Faculty </button></a>
+          <a href="../html/faculty_2_visitingFaculty.html"><button class="tablinks" id="abs1">Visiting Faculty </button></a>
+          <a href="../html/faculty_3_managementTeam.html"><button class="tablinks" id="abs1">Management Team </button></a>
+          <a href="../html/faculty_4_internationalFaculty.html"><button class="tablinks" id="abs1" style="background-color:#0d4d95;color:white">International Faculty </button></a>
+          <a href="../html/faculty_5_guestfaculty.html"><button class="tablinks" id="abs1">Guest Speakers </button></a>
+        </div>
+      </div>
+
+      <br><br>
+      <h3 id="fp">Faculty Profile ( International Faculty )</h3>
+      <h6 id="ap"><strong>International Professors who will be teaching in the New Academic Year 2014-15</strong></h6>
+
+        <div class="sectionAa">
+          <div class="row">
+            <div class="col">
+              <img src="../media/internationalFaculty/EmmyIndrayani.jpg" alt="" id="ifi">
+            </div>
+            <div class="col">
+              <p id="ifn"> Dr. EmmyIndrayani,  <br>Vice-Dean, Gunadarma University, Jakarta, <br>Professor (Mktg)</p>
+              </div>
+              <p id="ifd">Dr.EmmyIndrayani, Vice-Dean, Gunadarma University, Jakarta, - delivered a guest lecture atAsia-Pacific Institute of management on 7th Jan., 2015, on "How to Build Brand Loyalty of New Technology Products and Services".
+
+              Brand Loyalty, when it comes to New Technology Products and Services, is very important to address. Beyond global economic conditions, there’s an even bigger culprit leading to the decline in brand loyalty. Fast innovations in consumer technology have provided consumers with new tools for discovering, comparing, selecting and experiencing brands. Armed with these technological tools, customers are becoming increasingly brand agnostic.......check how interested the students are to listen on the topic and find solution of the problem! .
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <img src="../media/internationalFaculty/427_kamal.jpeg" alt="" id="ifi" width="25%;">
+            </div>
+            <div class="col">
+              <p id="ifn"> Dr. Kamal Ghose (Professor)<br> MAMA (USA), MCIM (UK), FAIM CPMgr(AUS) <br> Professor (Mktg)</p>
+              </div>
+              <p id="ifd">Dr. Kamal Ghose is currently working as a Brand Strategist, Visiting Faculty and Education Management Consultant in New Zealand. He joins Asia Pacific Institute of Management in July'14. He has over 18 years of extensive experience in teaching and education sector leadership combined with a decade of marketing and management industry expertise. Dr. Ghose has a vast educational background with PGDIM & PGDM from Punjabi University, PGDPM from NIPM (Kolkata), M.Com (Business Administration) from University of Rajasthan, PhD in management from Rohilkhand University, Certificate & Diploma in Adult Teaching & PGD in Tertiary Teaching from New Zealand. Dr. Ghose has been associated with Symbiosis Institute of Business Management, Bangalore as a Professor (Marketing) & Director. Prior to this, he has worked as a Proctor & Senior Academic (Marketing) in Lincoln University, New Zealand; University of South Australia as a Head of Discipline (Business); Otago Polytechnic New Zealand as a Head of Schools for Business, Travel & Tourism; Christchurch College of Education New Zealand as Associate Prof (Marketing) & International Student Advisor (Schoolf of Business); IMT Ghaziabad as Prof (Marketing) & Chairperson (MDP). Dr. Ghose has been a visiting Faculty in Sinhgad School of Business Studies Pune, Bimtech Noida, Mudra Institute of Communication Ahmedabad, Aravalli Institute of Management Jodhpur. Besides this, he is a member of India-NZ Business Council, Academy of Marketing Sciences USA, American Marketing Association, Australia & New Zealand Marketing Academy, Certified Professional Manager, Australian Institute of Management, Chartered Institute of Marketing UK. Dr. Ghose has more than 20 publications in refereed journals and peer reviewed conferences and brings with him tons of highly relevant education management, mentoring & research leadership experience, a mature and culturally adaptable attitude, extensive business knowledge & a reliable network of colleagues in the business & education sector.
+          </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/425_Dr. M K Kolay.jpg" alt="" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn1"> Dr. M K. KOLAY (Professor) <br>
+                    Ph.D., M.A. <br>
+                    Professor (Finance) </p>
+                </div>
+                <p id="ifd">Dr. M.K.Kolay is a Ph.D in Business Administration (Organizational Human Resource Valuation) from the Dept. of Industrial Engineering and Management, Indian Institute of Technology (IIT), Kharagpur in 1991. He is a Fellow Member of the Institute of Cost Accountants of India, having passed ICWA final exam in 1975. He joins Asia Pacific Institute of Management from July'14. Presently he is working as Professor and Head, Quantitative Business Dept of the College of Business Administration with a developing University in Riyadh.
+                He has done his M. Sc in Computational Finance from the University of Essex, London in 2005. He has also received Graduate Cert. in Tertiary Teaching from the University of South Pacific in 2003. A Master of Engineering (Production) from the University of Calcutta in 1975 with Mechanical Engineering as the basic background from REC, Durgapur in 1969.
+
+                Dr. Kolay brings with him an enriching experience of more than 30 years of teaching in various national as well as international institutes, 3 of them in India namely NITIE-Mumbai, ASCI - Hyderabad, IIT - Kharagpur, 2 institutes in Malaysia namely University Technology Mara & Malaysian Institute of Management, Kualalampur. He has also been associated with MBA Program of the University of South Pacific in Fiji Islands, International University in Germany as Visiting Professor, Sohar University in Oman as the Dean, Faculty of Business, University of Fiji as the Head, Management Dept, and MBA Director. He has more than 15 significant research contributions.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/418_shiva nandan.bmp" alt="" width="25%" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn2">Dr. Shiva Nandan (Professor) <br>
+                    Ph.D., C.F.A. <br>
+                    Professor (Marketing)</p>
+
+              </div>
+              <p id="ifd">Dr. Shiva Nandan is a Professor in the area of Marketing at Asia-Pacific Institute of Management. He has an international exposure in some of the best management institutes abroad and has taught marketing courses at some of the top MBA institutes like University of Texas at Arlington, Missouri Western State University and Kennesaw State University . His articles have been published in prestigious international journals such as Journal of Brand Management, Journal of Consumer Marketing, Journal of Marketing Channels, and Marketing Management Journal. He has presented papers at various international conferences. He has won several awards for teaching excellence, scholarship and research, including Missouri Governor's Award for Excellence in Teaching, Regents Distinguished Professor Award at Missouri Western State University, and Distinguished Professional Publication Award at University of Texas at Arlington. He was also the Director of Business and Economic Development Research Center at Western Institute.
+
+                Dr. Nandan's education, teaching and work-experience span three countries - India, U.S.A. and Canada. He obtained his Ph.D. in Marketing from the University of Texas at Arlington and MBA from the University of British Columbia. He has also received the Chartered Financial Analyst (CFA) designation. He has taught various subjects such as Applied Global Business Strategies, Advertising Management, Consumer Behavior, Marketing Policy, International Marketing, and Investment Analysis.</p>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/424_mmh.jpg" alt="" width="25%" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn"> Dr. Moon Moon Haque (Professor) <br>
+                    Ph.D., M.A. <br>
+                    Applied Economic</p>
+                </div>
+                <p id="ifd">Dr. Moon Moon Haque is an Associate Professor (Economics & Finance) at Asia-Pacific Institute of Management. Dr. Haque earned his Ph.D. in Business Administration (Concentration: Economics) from The University of Memphis, USA. He also had an M.A (Applied Economics) from the same university and, another M.A (Economics) from Visva-Bharati University, Santiniketan, India. Dr. Haque is an applied economics researcher and his research agenda mostly focused on the evaluation and recommendation of policy issues in the fields of health economics and labor economics, with a direct objective toward to alleviate inequality, and to promote efficient and effective economic policies. Moreover, he has a keen interest in the Indian macro economy, especially the growth of stock/financial market and pharmaceutical industries. Some of his scholarly works are under review in top international journals in his research fields and in addition, he had actively participated in many international conferences in USA.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/victor 126.jpg" alt="" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn"> Dr. Victor W. Nichol (Professor) <br>
+                    Ph.D., M.A. <br>
+                    Professor (HR)</p>
+                </div>
+                <p id="ifd">Dr. Nichol has worked with us as faculty in the OB/HRM area at Asia-Pacific Institute of Management, New Delhi. Dr. Nichol's background and teaching encompasses a number of topical areas in these domains, including a strong grounding in organizational behavior theory and psychometric methodology, and a passion for research in this discipline. He holds a Ph.D. in Industrial and Labor Relations from Michigan State University, an M.A. in ILR at Indiana University of Pennsylvania, and has been teaching Human Resources Management, Organizational Behavior, Economics, and Quantitative/Research courses at multiple academic institutions since 1998.
+
+                  His background is genuinely multidisciplinary and includes 45 graduate hours in Economics (cognate), numerous Labor courses, extensive Organizational Behavior and HRM background (e.g. Dissertation), and very strong foundation in research methodology (e.g., HLM and SEM). He also possesses specialized training in labor/employment law gained through the curriculum focus of IUP's Master of Arts program.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/charles126(1).jpg" alt="" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn">Dr. Charles A. Armitage <br>
+                  Ph.D. from University of Toronto <br>Professor</p>
+                </div>
+                <p id="ifd">Dr. Charles A. Armitage has been a Professor in the area of Human Resource Management at Asia-Pacific Institute of Management. He is a Ph.D. from University of Toronto. With more than 30 years of vast professional experience, he was the Professor, Bang College of Business at The Kazakhstan Institute of Management, Economics and Strategic Research (now KIMEP University). He has also served as Dean of Academic Affairs, The University of St. Martin. He was also the Executive Director at The Poon Kam Kai Institute of Management at The University of Hong Kong. As far as his industry experience is concerned, he was the Senior Fellow and Chief Executive Officer at Coeur Fort Enterprises, Ltd. and was also the Regional Director of Human Resources at Touche Ross & Co.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/vijay126.jpg" alt="" id="ifi">
+              </div>
+              <div class="col">
+                <p id="ifn">Dr. Vijay Mohan (Associate Professor) <br>
+                        Ph.D. (Economics) <br>
+                  Associate Professor (Research)</p>
+                </div>
+                <p id="ifd">Dr. Vijay Mohan has been an Associate Professor in International Business at Asia-Pacific Institute of Management. He completed his Ph.D. in Economics at Iowa State University, USA, and his M.A. (Economics) at the Delhi School of Economics. Before coming to AIM, Dr. Mohan taught at the Deakin Graduate School of Business, Australia. His research interests include industrial organization and international economics.</p>
+
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img src="../media/internationalFaculty/dipika126.jpg" alt="" id="ifi">
+              </div>
+              <div class="col">
+                                  <p id="ifn">Dr. Dipika Mukherjee <br>
+                        Ph.D., B.A. <br>
+                  Professor (Business Communication)</p>
+
+              </div>
+              <p id="ifd">Professor Dipika Mukherjee earned her doctorate in sociolinguistics from Texas A&M University and has taught at academic institutions in the United States India, China, Netherlands, Malaysia and Singapore. She has been associated with Asia-Pacific Institute of Management. She has taught at the Weinberg College of Arts and Sciences and is an Affiliate of the Roberta Buffett Center for International and Comparative Studies at Northwestern University, USA. She was Distinguished Professor of Linguistics (Professor 211) at the Shanghai International Studies University, China until August 2012 and has been a Fellow of the International Institute of Asian Studies in Leiden, the Netherlands, for the past six years. She received her BA (English) Honours degree from Lady Shri Ram College, New Delhi Her first novel, Thunder Demons, was longlisted for the 2009 Man Asian Literary Prize. Her short stories and poems have been published internationally. </p>
+            </div>
+
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+
+
+
+
+    <div class="lowerSection">
+      <br><br>
+      <p id="description">
+        <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+        <br><br>
+        Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+      <br>
+      <p id="accr">Accreditions:</p>
+      <img src="../media/images/accc1.png" alt="" id="accimg1">
+      <img src="../media/images/accc2.png" alt="" id="accimg">
+      <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+      <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+      <br><br>
+      <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+      <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+      <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+      <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+      <div class="f4">
+        <ul type="none">
+          <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+          <br>
+          <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+          <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+          <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+          <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+          <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+          <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+        </ul>
+      </div>
+      <div class="f5">
+        <ul type="none">
+          <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+          <br>
+          <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+          <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+          <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+          <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+          <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+        </ul>
+      </div>
+      <div class="f6">
+          <ul type="none">
+            <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+            <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+            <br><br><br>
+          </ul>
+      </div>
+      <div class="f7">
+        <ul type="none">
+          <li id="fhh"><strong>OTHER LINKS</strong></li>
+          <br>
+          <li><a href="../html/" id="flink">Download Prospectus</a></li>
+          <li><a href="../html/" id="flink">Privacy Policy</a></li>
+          <li><a href="../html/" id="flink">Site Terms</a></li>
+          <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+          <li><a href="../html/" id="flink">Site Map</a></li>
+          <br><br><br><br><br><br><br>
+        </ul>
+      </div>
+      <div class="f8">
+
+          <p><strong>REQUEST A CALL BACK</strong></p>
+          <br>
+          <form id="myForm">
+            <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+            <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+          </form>
+
+      </div>
+      <div class="footersocialMediaLinks">
+        <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+        <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+        <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+        <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+        <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+        <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+      </div>
+    </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+    <script>
+      function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(51.5, -0.12),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("connectWithUs"), mapOptions);
+      }
+    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</html>

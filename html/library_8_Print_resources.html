@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+    <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn111')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf11">Library</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="admissionQuery1">
+        <img src="../media/images/admissionquery.png" alt="" >
+      </div>
+
+      <div class="tabc">
+        <div class="tab">
+          <a href="../html/library_1_mainPage.html"><button class="tablinks" id="abs2" >About Library </button>
+          <a href="../html/library_8_Print_resources.html"><button class="tablinks" id="abs2" style="background-color:#0d4d95;color:white">Print Resources </button></a></a>
+          <a href="../html/library_7_EResources.html"><button class="tablinks" id="abs2">E-Resources</button></a>
+          <a href="../html/library_10_services_and_facilities.html"><button class="tablinks" id="abs2">Services and Facilities </button></a>
+          <a href="../html/library_9_referrals.html"><button class="tablinks" id="abs2">Referrals</button></a>
+
+
+        </div>
+      </div>
+
+        <div class="searchBarLibrary">
+          <p id="lib1">SEARCH:<select name="Options" id="lib2">
+            <option value="All">ALL</option>
+            <option value="Journals">JOURNALS</option>
+            <option value="Books">BOOKS</option>
+            <option value="Ebooks" selected>EBOOKS</option>
+          </select></p>
+          <p id="lib3">BY:<select name="CATAGORIES" id="lib4">
+            <option value="KEYWORDS">KEYWORDS</option>
+            <option value="TITLE">TITLE</option>
+            <option value="AUTHOR" selected>AUTHOR</option>
+          </select></p>
+          <p id="lib5">
+            FOR:
+            <input type="text" name="" value="" id="lib6">
+            <a href="http://203.115.110.246/Scripts/AfWiInq.dll"><img src="../media/images/librarysearchicon.png" alt="" id="lib7"></a>
+          </p>
+        </div>
+
+      <br><br>
+      <h3 id="fpl">Library - Print Resources</h3>
+      <h6 id="apl"><strong>ATHENAEUM LEARNING RESOURCE CENTER</strong></h6><br><br><br><br><br><br>
+
+      <div class="sectionAaa">
+        <h5><strong>Books</strong></h5>
+
+          The book amassment of library comprises books and reference resources. They are housed in stacks in the Ground Floor (Text Books, Fiction and Literature Books), First Floor (Reference Books) and are arranged as per Dewey Decimal Relegation. Each book is assigned a number representing the subject and arranged in ascending order in open shelves. Some accumulation (Training Manuals and Scholastic Videos and AIM Events Photographs Album) is in closed shelves and please contact circulation desk or library to refer them. To browse and search for this amassment use online catalogue
+          <br><br>
+          <strong>Books Arrangement</strong>
+          <br><br>
+          Books in the library are arranged in Dewey Decimal Classification Scheme. After locating an item in the OPAC, the screen will provide the call number for the item. The call number is the “address” of the item on the shelf.
+          <br><br>
+          <strong>It will look something like the following:</strong><br>
+          658      (assigned to the book “Management”)<br>
+          658.8   (assigned to the book for “Marketing”)<br>
+          330      (assigned to the book for “Economics”)<br><br>
+
+
+          • Total Number of Volumes : 116974 (As per the Accession Register)
+            <br>
+          • Total No. of Titles  :  16000 –plus
+          <br>
+          •	Reference Books	: 29068
+          <br>
+          • Text Books  :  52056
+          <br>
+          •  Book-Bank  :  35850
+            <br>
+          • (Book bank facility permits students to take and retain text books for the period of three months-Trimester-). Students are using this facility on a regular basis and it has become a very successful scheme for enhancing the learning).
+          <br><br><br><br>
+
+          <h5><strong>Journals</strong></h5>
+          The library subscribes to various journals of national and international repute of management and allied fields.
+          <br>Printed National journals: 47
+          <br>Printed International Journals: 17 <br>
+
+
+          <div class="row">
+
+            <div class="col ">
+              <h5><strong>List of National Journals</strong></h5><br>
+                  1.	Dalal Street Investment Journal <br>
+                  2.	Indian Journal of Finance<br>
+                  3.	Indian Journal of Marketing<br>
+                  4.	Journal of Accounting and Finance<br>
+                  5.	Labour Law Reporter <br>
+                  6.	Management Review <br>
+                  7.	Journal (IIMB Management Review)<br>
+                  8.	Vikalpa: The Journal of Decision Maker <br>
+                  9.	Vision <br>
+                  10.	Asian-Journal of Management Case<br>
+                  11.	Journal of Banking , IT and management <br>
+                  12.	Journal of Organizational Behavior<br>
+                  13.	Marketing Management <br>
+                  14.	Accounting Research & Audit Practice) <br>
+                  15.	Journal of Emerging Market <br>
+                  16.	Finance Review of Market Integration <br>
+                  17.	South Asia Economic Journal <br>
+                  18.	Metamorphosis – A Journal of Management Research<br>
+                  19.	Communicator <br>
+                  20.	Decision (IIMC) <br>
+                  21.	Journal of supply chain management <br>
+                  22.	Journal of entrepreneurship and management <br>
+                  23.	Social work chronicles <br>
+                  24.	Finance India<br>
+                  25.	NIFM journal of public financial management<br>
+                  26.	Journal of management research<br>
+                  27.	Journal of business thought<br>
+                  28.	Review of professional management<br>
+                  29.	Parikalpana <br>
+                  30.	KAIM Journal of management and research<br>
+                  31.	IMAGIS Retail<br>
+                  32.	JIM Quest<br>
+                  33.	Leaders speak<br>
+                  34.	The insurance times<br>
+                  35.	Leaders<br>
+                  36.	Business<br>
+                  37.	Herald<br>
+                  38.	Advance computer networks<br>
+                  39.	A Vraras lifestyle<br>
+                  40.	Timeline Goa<br>
+                  41.	Bloomberg business week<br>
+                  42.	Roshni Darshan <br>
+                  43.	India islamic cultural centre<br>
+                  44.	Uday India<br>
+                  45.	Kayastha parivar <br>
+                  46.	The Doller business<br>
+                  47.	Focus<br>
+
+            </div>
+            <div class="col ">
+              <h5><strong>List of International Journals</strong></h5><br>
+                  1.	Global Journal of Business Research <br>
+                  2.	Journal of Public Policy and Marketing <br>
+                  3.	Journal of Marketing Research <br>
+                  4.	Eastern Economic Journal <br>
+                  5.	International Journal of Management <br>
+                  6.	Journal of Marketing <br>
+                  7.	International Journal of Banking and Insurance <br>
+                  8.	Harvard Business Review <br>
+                  9.	Global Journal of Emerging Market Economics, <br>
+                  10.	International Journal of Rural Management <br>
+                  11.	International Journal of banking, risk and insurance<br>
+                  12.	International Journal of business analytics and intelligence<br>
+
+
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+          <br><br><br>
+
+          <h5><strong>Magazines</strong></h5><br>
+
+                  1.	Business India<br>
+                  2.	Business World<br>
+                  3.	Business Today<br>
+                  4.	Capital Market<br>
+                  5.	Time<br>
+                  6.	Frontline<br>
+                  7.	Mainstream<br>
+                  8.	PC Quest<br>
+                  9.	Corporate India<br>
+                  10.	Forbes India<br>
+                  11.	Reader Digest<br>
+                  12.	Competition  Success Review<br>
+                  13.	Pitch<br>
+                  14.	The Week<br>
+                  15.	Partiyogita Darpan<br>
+                  16.	Down to Earth<br>
+                  17.	Lonely Planet<br>
+                  18.	Sanchaar Madhyam<br>
+                  19.	Economist<br>
+
+                  <br><br><br>
+
+                  <h5><strong>Newspapers:</strong></h5><br>
+                    1.	The Times of India <br>
+                    2.	Hindustan Times<br>
+                    3.	The Hindu <br>
+                    4.	The Indian Express<br>
+                    5.	The Asian Age <br>
+                    6.	Business Line<br>
+                    7.	The Financial Express<br>
+                    8.	The Economic Times <br>
+                    9.	Business Standards <br>
+                    10.	Navbharat Times<br>
+                    11.	Mint <br>
+                    12.	Employment News <br>
+
+                    <br><br><br>
+
+                    <button class="btn btn-primary"type="button" name="" id="bookshelf">Arrangement of Books in Shelf</button>
+
+
+
+
+      </div>
+
+      <br><br><br><br>
+      <div class="otherlibraryLinks">
+        <p id="rl">Related Links</p>
+        <div class="row linksoflibrary">
+          <div class="col">
+            <ul type="none" id="listitems1">
+              <li><a href="#" id="rll">Research and Development</li>
+              <li><a href="#" id="rll">Journal of Management Research and Innovation</a></li>
+              <li><a href="#" id="rll">Asia - Pacific Finance and Accounting Review</a></li>
+              <li><a href="#" id="rll">Asia - Pacific Marketing Review</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul type="none" id="listitems2">
+              <li><a href="#" id="rll">Research and Publication</a></li>
+              <li><a href="#" id="rll">Seminars/Workshops</a></li>
+              <li><a href="#" id="rll">News Letter</a></li>
+              <li><a href="#" id="rll">AIM in Media</a></li>
+              <li><a href="#" id="rll">Call for Papers (JMRI)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="lowerSection">
+        <br><br>
+        <p id="description">
+          <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+          <br><br>
+          Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+        <br>
+        <p id="accr">Accreditions:</p>
+        <img src="../media/images/accc1.png" alt="" id="accimg1">
+        <img src="../media/images/accc2.png" alt="" id="accimg">
+        <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+        <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+        <br><br>
+        <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+        <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+        <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+        <div class="f4">
+          <ul type="none">
+            <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+            <br>
+            <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+            <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+            <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+            <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+            <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+            <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+          </ul>
+        </div>
+        <div class="f5">
+          <ul type="none">
+            <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+            <br>
+            <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+            <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+            <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+            <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+            <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+          </ul>
+        </div>
+        <div class="f6">
+            <ul type="none">
+              <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+              <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+              <br><br><br>
+            </ul>
+        </div>
+        <div class="f7">
+          <ul type="none">
+            <li id="fhh"><strong>OTHER LINKS</strong></li>
+            <br>
+            <li><a href="../html/" id="flink">Download Prospectus</a></li>
+            <li><a href="../html/" id="flink">Privacy Policy</a></li>
+            <li><a href="../html/" id="flink">Site Terms</a></li>
+            <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+            <li><a href="../html/" id="flink">Site Map</a></li>
+            <br><br><br><br><br><br><br>
+          </ul>
+        </div>
+        <div class="f8">
+
+            <p><strong>REQUEST A CALL BACK</strong></p>
+            <br>
+            <form id="myForm">
+              <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+              <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+              <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+            </form>
+
+        </div>
+        <div class="footersocialMediaLinks">
+          <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+          <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+          <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+        </div>
+      </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>

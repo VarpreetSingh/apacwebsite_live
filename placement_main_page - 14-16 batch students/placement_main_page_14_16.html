@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/home.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+  <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+  </script>
+
+  <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+  </script>
+
+
+  <script type="text/javascript">
+  jQuery(document).ready(function( $ ) {
+    $('span').counterUp({
+
+      delay: 10, // the delay time in ms
+
+      time: 1000 // the speed time in ms
+
+    });
+
+  });
+
+  </script>
+  <script type="text/javascript">
+      function openCity(evt, cityName) {
+
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("allTab").click();
+  </script>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 90%;
+        margin: 100px auto;
+
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      opacity: 1;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+
+    }
+
+    .slick-active {
+
+    }
+
+    .slick-current {
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parentContainer">
+    <div class="header">
+      <div class="contact">
+        <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+      </div>
+
+        <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+        <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+        <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+        <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+        <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+        <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+    </div>
+
+    <div class="navigationBar">
+      <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+      <div class="menuLinks">
+        <div class="input-group searchButton">
+          <input type="text" class=" searchBar" placeholder="">
+          <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+          <div class="searchIcon">
+            <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+          </div>
+        </div>
+        <ul type="none" class="navList">
+          <div class="navblock">
+            <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+            <div class="dropdown-content icc" >
+              <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+              <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+              <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+              </a>
+
+              <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+              <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+              <a href="../html/AboutUs_International Office.html">International Office</a>
+              <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+              <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+              <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+              <a href="../html/AboutUs_director_message.html">Director's Message</a>
+              <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+              <a href="../html/.html">Video Gallery</a>
+              <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+            </div>
+
+          </div>
+
+          <div class="navblock1">
+            <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+            <div class="dropdown-content icc1">
+              <a href="../html/academic_1_pgdm.html">PGDM</a>
+              <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+              <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+              <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+              <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+              <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+            </div>
+          </div>
+
+          <div class="navblock2">
+            <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+            <div class="dropdown-content icc2">
+              <a href="../html/research_2_Publications.html">Publication</a>
+              <a href="../html/research_3_conferences_organised.html">Conferences</a>
+              <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+            </div>
+          </div>
+
+          <div class="navblock3">
+            <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+            <div class="dropdown-content icc3">
+              <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+              <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+              <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+              <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+              <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+            </div>
+          </div>
+
+          <div class="navblock4">
+            <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+            <div class="dropdown-content icc4">
+              <a href="../html/.html">Admission 2018-20 Apply Online </a>
+              <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+              <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+              <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+              <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+              <a href="../html/.html">Download Prospectus </a>
+              <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+              <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+              <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+              <a href="../html/.html">FAQs</a>
+              <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+            </div>
+          </div>
+
+          <div class="navblock5">
+            <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+            <div class="dropdown-content icc5">
+              <a href="../html/library_1_mainPage.html">About Library</a>
+              <a href="../html/library_8_Print_resources.html">Print Resources </a>
+              <a href="../html/library_7_EResources.html">E-Resources </a>
+              <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+              <a href="../html/library_9_referrals.html">Referrals</a>
+            </div>
+          </div>
+
+          <div class="navblock6">
+            <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+            <div class="dropdown-content icc6">
+              <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+              <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+              <a href="../html/.html">Summer Internship  </a>
+              <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+              <a href="../html/.html">Industrial Visit </a>
+              <a href="../html/Alumni_Page.html">Alumni  </a>
+              <a href="../html/.html">Download Placement Brochure </a>
+            </div>
+          </div>
+          <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="facultyBanner">
+        <img src="../media/22_facultybackground.jpg" alt="">
+    </div>
+    <div class="blackBg">
+    </div>
+    <div class="flogo">
+      <img src="../media/Faculty.png" alt="" id="facultyLogo">
+    </div>
+    <div class="fbn">
+      <h2 class="mfplacements">Placements</h2>
+      <h3 class="aim">Asia Pacific Institute of Management</h3>
+    </div>
+
+    <div id="admissionQuery1">
+      <img src="../media/images/yourquery.png" alt="" >
+    </div>
+
+    <div class="tabc">
+      <div class="tab">
+        <button class="tablinks" id="abs1">Final Placements </button>
+        <button class="tablinks" id="abs">Centre for Corporate Relations </button>
+        <button class="tablinks" id="abs">Summer Internship (2016-2018) </button>
+        <button class="tablinks" id="abs1">Students Testimonials </button>
+      </div>
+    </div>
+
+    <br><br>
+    <h3 id="fp">Placements</h3>
+    <br>
+    <div class="chairperson">
+      <h3></h3>
+        <div class="row">
+          <div class="col">
+            <img src="../media/facultyimagesnew/jitender_bhandari.jpg" alt="" >
+          </div>
+          <div class="col jitender">
+            <strong>Dr. Jitender Bhandari</strong> <br>
+            Chairperson-Centre for Corporate Relations (CCR)<br>
+            jitender.bhandari@asiapacific.edu<br>
+            placements@asiapacific.edu<br>
+            +91  97177 52525
+          </div>
+        </div>
+
+        <br>
+        Centre for Corporate Relations (CCR) is the hub of activities which drive the 3-I (Institute - Industry - Interface) initiative. CCR develops and maintains a close relationship with corporate through guest lectures, corporate get-togethers, industry visits and frequent interaction at both institute and student level.
+        <br><br>
+        The CCR arranges for the mandatory six-to eight weeks Summer Internship Program (SIP) in corporate houses for each student at the end of the first year. The CCR is also responsible for organizing final placement for the graduating students - a continuous process that effectively starts the day a student joins the institute.
+        <br><br>
+        The Institute saw very vibrant placements for the 2015-17 batch with over 120 companies coming for recruiting our students. Some of the prominent recruiters include EY, Copal Amba, Moody’s Analytics, Continental Tyres, ICICI Bank, Kotak Mahindra Bank, Decathlon, FedEx, Lloyd Ventures, Zycus Infotech. All the 2016-18 batch students got SIP with stipend and very good projects to work on with MNCs, Banks, FMCG and other good companies.
+        <br><br>
+        Students are actively involved in the activities of CCR - which includes publication of placement brochure and other literature, interaction with recruiters, organising HR Roundtable, working out placement strategies & scheduling activities, maintaining resume banks, organizing industrial visits, speakers of eminence from industry etc. The exposure to this complex process helps to develop their Participative Managerial Effectiveness (PME).
+
+
+        <br><br><br>
+
+        <strong><i>Contact us</i></strong><br><br>
+        <strong>Ms Pallavi Gupta</strong><br>
+        Manager- CCR		<br>
+        Pallavi.gupta@asiapacific.edu			<br>
+        +91 98737 59432		<br><br>
+        <strong>Mr Mirza Iffat Ali</strong><br>
+        AM- CCR<br>
+        mirzaiffat.ali@asiapacific.edu<br>
+        +91 70171 39028<br><br>
+        <strong>Prof. Ritu Gupta</strong><br>
+        Ritu.gupta@asiapacific.edu<br>
+        +91-88000 93207<br><br><br>
+        <strong>Read More</strong> : <a href="http://www.asiapacific.edu/centre_for_corporate_relations">http://www.asiapacific.edu/centre_for_corporate_relations</a>
+        <br><br>
+
+    </div>
+    <br><br><br><br>
+    <h6 id="ap"><strong>FINAL PLACEMENTS (2014-2016 Batch)</strong></h6>
+    <a href="#"><img src="../media/images/downloadplacementbrochure.png" alt="" id="downloadplacementbrochure"></a>
+    <div class="container placedStudents">
+
+
+
+
+
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Anamika.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ANAMIKA  DUBEY
+</p>
+      <br>
+      <p id="placedstudentpost">BLUE OCEAN VENTURES
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Saransh Gakhar.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SARANSH   GAKHAR
+</p>
+      <br>
+      <p id="placedstudentpost">AMAGI MEDIA LABS PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Shreya Tandon.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SHREYA  TANDON-
+</p>
+      <br>
+      <p id="placedstudentpost">NAUKRI.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">YASHVEER SINGH
+</p>
+        <br>
+        <p id="placedstudentpost">BIRLA SUNLIFE ASSET MANAGEMENT
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Smriti Prashar.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SMRITI  PARASAR
+</p>
+      <br>
+      <p id="placedstudentpost">BIRLA SUNLIFE ASSET MANAGEMENT
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DIPAK  SINGH
+</p>
+      <br>
+      <p id="placedstudentpost">BHARTI AIRTEL LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Trideep.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">TRIDEEP  PRASAD
+</p>
+      <br>
+      <p id="placedstudentpost">BHARTI AIRTEL LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">VISHAL   GROVER
+</p>
+      <br>
+      <p id="placedstudentpost">BHARTI AIRTEL LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Anup Mathew (2).jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ANOOP MATHEW
+</p>
+      <br>
+      <p id="placedstudentpost">LIONS WORK FORCE SOLUTIONS (I) PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Shivani Bist.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">SHIVANI   BISHT
+</p>
+        <br>
+        <p id="placedstudentpost">LIONS WORK FORCE SOLUTIONS (I) PVT. LTD.
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Him Shika Sharma.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">HIM SHIKHA
+</p>
+      <br>
+      <p id="placedstudentpost">LIONS WORK FORCE SOLUTIONS (I) PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Aman Sharma.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">AMAN   SHARMA
+</p>
+      <br>
+      <p id="placedstudentpost">ADITYA BIRLA <br>INSURANCE BROKER<br> LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Nitin Makkar.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NITIN   MAKKAR
+</p>
+      <br>
+      <p id="placedstudentpost">ADITYA BIRLA <br>INSURANCE BROKER <br>LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Rajesh Pandey.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RAJESH  KUMAR  <br>PANDEY
+</p>
+
+      <p id="placedstudentpost">ADITYA BIRLA <br>INSURANCE BROKER <br>LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Deepak.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DEEPAK   KUMAR
+</p>
+      <br>
+      <p id="placedstudentpost">CARE CONTAINER <br>LINES PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Prateek.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">PRATHIK  KUMAR
+</p>
+        <br>
+        <p id="placedstudentpost">ADITYA BIRLA <br>INSURANCE BROKER <br>LTD.
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Nikita.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NIKITA  PARASHER
+
+</p>
+      <br>
+      <p id="placedstudentpost">FUTURESTEP<br> CONSULTING <br>PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Nikita.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NIKITA  PARASHER
+
+</p>
+      <br>
+      <p id="placedstudentpost">Fidelity International
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Shreshtha Singh.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SHRESHTHA  SINGH
+</p>
+      <br>
+      <p id="placedstudentpost">FUTURESTEP <br>CONSULTING PVT.<br> LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/ARNAV.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ARNAV  SAXENA
+</p>
+      <br>
+      <p id="placedstudentpost">Gartner India Pvt. Ltd
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Etesh Yadav.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ETESH  YADAV
+</p>
+      <br>
+      <p id="placedstudentpost">Protivity / <br>Gartner India <br>Pvt. Ltd
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Nikhil Bhatia.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">NIKHIL BHATIA
+</p>
+        <br>
+        <p id="placedstudentpost">Gartner India Pvt. Ltd
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Piyush Kapoor.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">PIYUSH  KAPOOR
+</p>
+      <br>
+      <p id="placedstudentpost">Gartner India Pvt. Ltd
+      </p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Akshita Chauhan.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">AKSHITA  CHAUHAN
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI BANK LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DIWAKAR  DUBEY
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI BANK LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Rahul Narula.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RAHUL   NARULA
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI BANK LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Ria Arora.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RIA  ARORA
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI BANK LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Soumya Garg.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">SOMYA  GARG
+</p>
+        <br>
+        <p id="placedstudentpost">ICICI BANK LTD.
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Mukesh Singh.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">MUKESH SINGH
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI SECURITIES LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Mursil Siddhique.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">MURSIL  SIDDIQUI
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI SECURITIES LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">PRASHANT KUMAR <br>SINGH
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI SECURITIES LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Sunny Mittal.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SUNNY  MITTAL
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI SECURITIES LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Vishwank.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">VISHWANK  GUPTA
+</p>
+      <br>
+      <p id="placedstudentpost">ICICI SECURITIES LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Devyani Bansal.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">DEVYANI  BANSAL
+</p>
+        <br>
+        <p id="placedstudentpost">ERNST & YOUNG
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SWETA  MARRI
+</p>
+      <br>
+      <p id="placedstudentpost">ERNST & YOUNG
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">MOHD. AREEB <br>ALI SYED
+</p>
+      <br>
+      <p id="placedstudentpost">ERNST & YOUNG
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ATIGYA  JHA
+</p>
+      <br>
+      <p id="placedstudentpost">INDIABULLS HOUSING <br>FINANCE LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NAVNEET   DAGAR
+</p>
+      <br>
+      <p id="placedstudentpost">INDIABULLS HOUSING FINANCE LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Ravleen Bhatia.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RAVLEEN KAUR BHATIA
+</p>
+      <br>
+      <p id="placedstudentpost">INDIABULLS HOUSING FINANCE LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">RITU  SHARMA
+</p>
+        <br>
+        <p id="placedstudentpost">INDIABULLS HOUSING FINANCE LTD.
+</p>
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Udit.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">UDIT   ASWAL
+
+</p><br>
+      <p id="placedstudentpost">INDIABULLS HOUSING FINANCE LTD.
+
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Prashant Chauhan.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">PRASHANAT  CHAUHAN
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Saavi Gupta.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SAAVI  GUPTA
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Varun.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">VARUN   JOSEPH
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RAHUL   SHARMA
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Rishab Parashar.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">RISHABH   PARASHAR
+</p>
+        <br>
+        <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Himanshu Sharma.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">HIMANSHU KR<br> SHARMA
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Kuldeep.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">KULDEEP  SINGH
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">VIKAS  YADAV
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">SUBHAM  MAN
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Biplove Barun.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">BIPLOVE BARUN
+</p>
+      <br>
+      <p id="placedstudentpost">JUSTDIAL.COM
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Jobin Joseph.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">JOBIN  JOSEPH
+</p>
+        <br>
+        <p id="placedstudentpost">LLYODS VENTURES
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Ritesh.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">RITESH KUMAR<br> MISHRA
+</p>
+      <br>
+      <p id="placedstudentpost">SPANDANA SPHOORTY <br>FINANCIAL LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Abhishek Mishra.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ABHISHEK  MISHRA
+</p>
+
+      <p id="placedstudentpost">Business Octane/ <br>MANSUKH INVESTMENT <br>AND TRADING <br>SOLUTIONS
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Divya Bagwani.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DIVYA BHAGWANI
+</p>
+      <br>
+      <p id="placedstudentpost">MAGUS CUSTOMER<br> DIALOG
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">MEHUL KUMAR<br> GUPTA
+</p>
+      <br>
+      <p id="placedstudentpost">COPAL AMBA
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Hitesh Yadav.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">HITESH  YADAV
+</p>
+      <br>
+      <p id="placedstudentpost">SASVAT NETWORK <br>PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+
+<div class="container placedStudents">
+  <div class="row pstudents">
+    <div class="col s1">
+      <div class="studentcontent">
+        <img src="../media/p14batch/Lokesh.jpg" alt="" id="studentimage">
+        <div class="placedStudentDetails">
+        <p id="studentname">LOKESH  KUMAR <br> RAJPUT
+</p>
+        <br>
+        <p id="placedstudentpost">SASVAT NETWORK<br> PVT. LTD.
+</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="col s2">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Nishant Alok.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NISHANT ALOK
+</p>
+      <br>
+      <p id="placedstudentpost">SASVAT NETWORK <br>PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col ">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Ashima Patwal.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ASHIMA   PATWAL
+</p>
+      <br>
+      <p id="placedstudentpost">TATA TELE <br>SERVICES PVT. LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row pstudents">
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DISHA  SATIJA
+</p>
+      <br>
+      <p id="placedstudentpost">AMERICAN EXPRESS<br> INDIA
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/Anuram.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ANURAM <br> NUTHALAPATI
+</p>
+      <br>
+      <p id="placedstudentpost">CUSHMAN & WAKEFIELD
+</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">AKHIL  AGARWAL
+</p>
+      <br>
+      <p id="placedstudentpost">ONICRA CREDIT RATING-AGENCY OF INDIA LTD.
+</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">TANIA   MALHOTRA
+</p>
+      <br>
+      <p id="placedstudentpost">INDUSIND BANK
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">OSHI AGARWAL
+</p>
+    <br>
+    <p id="placedstudentpost">RELIGARE BROKING
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Madhur Goel.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">MADHUR   GOEL
+</p>
+    <br>
+    <p id="placedstudentpost">SYNERGY CONSULTANTS
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Devesh Singh.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">DEVESH  SINGH
+</p>
+    <br>
+    <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">PIYUSH  PAHUJA
+</p>
+    <br>
+    <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Ankit Mathur.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ANKIT  MATHUR
+</p>
+    <br>
+    <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Bragdesh.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">BRAGADESH  V
+</p>
+      <br>
+      <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Sadaf Siddiqui.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SADAF
+</p>
+    <br>
+    <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Saiket.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SAIKAT  BOSE
+</p>
+    <br>
+    <p id="placedstudentpost">Jindal India Ltd
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Rabia Mehta.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">RABIA  MEHTA
+</p>
+    <br>
+    <p id="placedstudentpost">NANDO'S INDIA
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">RASHMI  K.S.
+</p>
+    <br>
+    <p id="placedstudentpost">EBIX SOFTWARE <br>INDIA PVT. LTD.
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">BISWARUP  MUKHOPADHYAY
+</p>
+    <br>
+    <p id="placedstudentpost">EBIX SOFTWARE <br>INDIA PVT. LTD.
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">AISHA TASEEN
+</p>
+      <br>
+      <p id="placedstudentpost">HDFC BANK
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Gaurav Mori.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">GAURAV KUMAR MORI
+</p>
+    <br>
+    <p id="placedstudentpost">GOLDTEX FURNISHING<br> INDUSTRIES
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ADITYA  KUMAR  SINGH
+</p>
+    <br>
+    <p id="placedstudentpost">THOUGHTSOL<br> INFOTECH
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Vishaka.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">VISHAKHA  VERMA
+</p>
+    <br>
+    <p id="placedstudentpost">MIRUS SOLUTIONS
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Gaurav Tripathy.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">GAURAV TRIPATHI
+</p>
+    <br>
+    <p id="placedstudentpost">TATA HOUSING <br>FINANCE COMPANY
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Vivek Kumar.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">VIVEK  KUMAR
+</p>
+    <br>
+    <p id="placedstudentpost">UNISON international
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">KARISHMA  BHADANA
+</p>
+      <br>
+      <p id="placedstudentpost">ADITYA BIRLA MONEY
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">AMIT  KUMAR  MISHRA
+</p>
+    <br>
+    <p id="placedstudentpost">CAPITAL FIRST
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Arnab Nath.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ARNAB NATH
+</p>
+    <br>
+    <p id="placedstudentpost">Lloyd Electric <br>& Engineering Ltd.
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Ritika Sharma.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">RITIKA   SHARMA
+</p>
+    <br>
+    <p id="placedstudentpost">Value prospect
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Shivangani Kapoor.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SHIVANGINI  KAPOOR
+</p>
+    <br>
+    <p id="placedstudentpost">FRANCHISE INDIA
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">MEGHA  SHARMA
+</p>
+    <br>
+    <p id="placedstudentpost">SYNERGY <br>CONSULTANTS
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Daljeet.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DALJEET  KAUR
+</p>
+      <br>
+      <p id="placedstudentpost">SYNERGY<br> CONSULTANTS
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SWATI  MALIK
+</p>
+    <br>
+    <p id="placedstudentpost">Wisefinserv
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">DIVYA  TANEJA
+</p>
+    <br>
+    <p id="placedstudentpost">Wisefinserv
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Rohit.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ROHIT PRATAP<br> SINGH SIKARWAR
+</p>
+    <br>
+    <p id="placedstudentpost">LAXMI FOUNDATION<br>-NGO
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SRISHTI   SAXENA
+</p>
+    <br>
+    <p id="placedstudentpost">MEDIA INDIA GROUP
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SHIKHAR  GUPTA
+</p>
+    <br>
+    <p id="placedstudentpost">Moolchand Medcity
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Nishant.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">NISHANT   MAHESHWARI
+</p>
+      <br>
+      <p id="placedstudentpost">Young Entrepreneur
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Suresh Das.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SURESH  DAS
+</p>
+    <br>
+    <p id="placedstudentpost">Young Entrepreneur
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Swapnil Srivastava.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SWAPNIL  SRIVASTAVA
+</p>
+    <br>
+    <p id="placedstudentpost">Young Entrepreneur
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Akshat Talwar.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">AKSHAR  TALWAR
+</p>
+    <br>
+    <p id="placedstudentpost">Young Entrepreneur
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Antara.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ANTARA SHRIVASTAVA
+</p>
+    <br>
+    <p id="placedstudentpost">HIGHER STUDIES
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Samrath.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SAMARTH  CHANDRA
+</p>
+    <br>
+    <p id="placedstudentpost">HDB Financial services
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Arjun.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ARJUN  KUMAR
+</p>
+      <br>
+      <p id="placedstudentpost">Elite Elevators
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Nagaraju.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">NAGARAJU PUJARI
+</p>
+    <br>
+    <p id="placedstudentpost">Elite Elevators
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Ritesh.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">RITESH KUMAR SINGH
+</p>
+    <br>
+    <p id="placedstudentpost">Elite Elevators
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">VADLAMUDI SAI <br> KELI KARTHIK
+</p>
+    <br>
+    <p id="placedstudentpost">Elite Elevators
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Partha bora.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">PARTHA PROTIM BORA
+</p>
+    <br>
+    <p id="placedstudentpost">Talent4Assure
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Naveen jagsi.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">NAVEEN
+</p>
+    <br>
+    <p id="placedstudentpost">Talent4Assure
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Aditya Thakur.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">ADITYA KUMAR <br>THAKUR
+</p>
+      <br>
+      <p id="placedstudentpost">Talent4Assure
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Navneet Kumar.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">NAVNEET KUMAR
+</p>
+    <br>
+    <p id="placedstudentpost">Talent4Assure
+    </p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Amit Kumar Jha (2).jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">AMIT  KUMAR  JHA
+</p>
+    <br>
+    <p id="placedstudentpost">SASVAT NETWORK <br>PVT. LTD.
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Parikshit shome.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">PARIKSHIT  SHOME
+</p>
+    <br>
+    <p id="placedstudentpost">NITYO INFOTECH
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">KARAN   KALIA
+</p>
+    <br>
+    <p id="placedstudentpost">NITYO INFOTECH
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ANUPAMA KUMARI
+</p>
+    <br>
+    <p id="placedstudentpost">THOUGHTSOL<br> INFOTECH PVT. LTD.
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/Divya Singhal.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DIVYA   SINGHAL
+</p>
+      <br>
+      <p id="placedstudentpost">MOGLIX.COM
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">RIDHI  KAPOOR
+</p>
+    <br>
+    <p id="placedstudentpost">Wise finserv Company
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Sonali Dubey.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SONALI  DUBEY
+</p>
+    <br>
+    <p id="placedstudentpost">FRANCHISE INDIA
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="row pstudents">
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">HIMANSHU BHATT
+</p>
+    <br>
+    <p id="placedstudentpost">FRANCHISE INDIA
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">ONKAR SINGH THAKUR
+</p>
+    <br>
+    <p id="placedstudentpost">Chai Garam
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Sangeeta Tripathy.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">SANGEETA TRIPATHY
+</p>
+    <br>
+    <p id="placedstudentpost">Ameriprise
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<div class="container placedStudents">
+<div class="row pstudents">
+  <div class="col s1">
+    <div class="studentcontent">
+      <img src="../media/p14batch/noimage.jpg" alt="" id="studentimage">
+      <div class="placedStudentDetails">
+      <p id="studentname">DIVYA SHREE
+</p>
+      <br>
+      <p id="placedstudentpost">THOMSEM COMFORT <br>PRODUCTS PVT. LTD
+</p>
+
+    </div>
+  </div>
+  </div>
+  <div class="col s2">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Nikhil Sandal.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">NIKHIL  SANDAL
+</p>
+    <br>
+    <p id="placedstudentpost">ICICI Prudential Life Insurance Company
+</p>
+
+
+    </div>
+  </div>
+</div>
+  <div class="col ">
+    <div class="studentcontent">
+    <img src="../media/p14batch/Deepak Pant.jpg" alt="" id="studentimage">
+    <div class="placedStudentDetails">
+    <p id="studentname">DEEPAK   PANT
+</p>
+    <br>
+    <p id="placedstudentpost">THOUGHTSOL <br>INFOTECH PVT. LTD.
+</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br><br><br><br><br>
+
+
+</div>
+
+
+
+
+    <div class="pr" style="margin-top:-9%">
+      <center><img src="../media/images/icon4.png" alt="" id="ssl111"></center>
+      <img id="llll1" src="../media/images/Gray_shop_preview.png" alt="" width="38.5%" height="10px">
+      <img id="llll2" src="../media/images/Gray_shop_preview.png" alt="" width="38.5%" height="10px">
+      <h3 class="admheadingbottom1111aaaa">Our Recruiters</h3>
+      <p id="line1">WE ARE CONECTED WITH RENOWNED CONCERN</p>
+      <section class="regular slider" style="margin-top:0%;" data-slick='{"slidesToShow": 6, "slidesToScroll": 6}'>
+        <div>
+          <img src="../media/recruiters/birla-sun-life.jpg" >
+        </div>
+        <div>
+          <img src="../media/recruiters/cease_fire.jpg" >
+        </div>
+        <div>
+          <img src="../media/recruiters/continental's.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/copalAmba.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/Decathlon_Logo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/EY_Logo_Beam_Tag_Stacked_RGB_EN.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/FedEx_Corp_logo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/Gartner_logo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/icici-bank.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/indepay.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/JW_vert_blk.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/kotak_logo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/kotak_securities.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_Air-Astana.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_air.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_amazon.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_asianpaints.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_audi.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_axis.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_fidelity.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_infoedge.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_interocean.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_jaro.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_jio.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_lionsworkforce.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_meritnation.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_nityo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_oggin_tech.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_policybazaar.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_quikr.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo_tagbin.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo-birla-sun-life.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo-icici-securities.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/logo-jllyod.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/moglix.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/Moody's.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/naukrilogo.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/protiviti.jpg">
+        </div>
+        <div>
+          <img src="../media/recruiters/zycus.jpg">
+        </div>
+      </section>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="lowerSection">
+      <br><br>
+      <p id="description">
+        <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+        <br><br>
+        Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+      <br>
+      <p id="accr">Accreditions:</p>
+      <img src="../media/images/accc1.png" alt="" id="accimg1">
+      <img src="../media/images/accc2.png" alt="" id="accimg">
+      <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+      <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+      <br><br>
+      <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+      <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+      <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+      <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+      <div class="f4">
+        <ul type="none">
+          <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+          <br>
+          <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+          <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+          <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+          <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+          <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+          <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+        </ul>
+      </div>
+      <div class="f5">
+        <ul type="none">
+          <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+          <br>
+          <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+          <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+          <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+          <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+          <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+        </ul>
+      </div>
+      <div class="f6">
+          <ul type="none">
+            <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+            <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+            <br><br><br>
+          </ul>
+      </div>
+      <div class="f7">
+        <ul type="none">
+          <li id="fhh"><strong>OTHER LINKS</strong></li>
+          <br>
+          <li><a href="../html/" id="flink">Download Prospectus</a></li>
+          <li><a href="../html/" id="flink">Privacy Policy</a></li>
+          <li><a href="../html/" id="flink">Site Terms</a></li>
+          <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+          <li><a href="../html/" id="flink">Site Map</a></li>
+          <br><br><br><br><br><br><br>
+        </ul>
+      </div>
+      <div class="f8">
+
+          <p><strong>REQUEST A CALL BACK</strong></p>
+          <br>
+          <form id="myForm">
+            <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+            <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+            <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+          </form>
+
+      </div>
+      <div class="footersocialMediaLinks">
+        <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+        <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+        <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+        <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+        <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+        <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+      </div>
+    </div>
+    <div class="end">
+      <br>
+       © Asia Pacific Institute of Management. All rights reserved.
+      <br>
+    </div>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+
+</body>
+</html>

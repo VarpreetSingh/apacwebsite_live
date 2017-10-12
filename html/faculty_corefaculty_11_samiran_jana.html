@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="header">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+
+          <a href="https://www.facebook.com/asiapacificdelhi "><img id="fb" src="../media/images/facebook.png"></a>
+          <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="gPlus" src="../media/images/googleplus.png"></a>
+          <a href="https://www.linkedin.com/edu/school?id=40657"><img id="linkedIn" src="../media/images/linked.png"></a>
+          <a href="https://www.pinterest.com/asiapacificdel/"><img id="pinterest" src="../media/images/pinterest.png"></a>
+          <a href="https://twitter.com/AIM_Delhi"><img id="twitter" src="../media/images/twitter.png"></a>
+          <a href="https://www.youtube.com/channel/UCD2SWAzDu9U7SlN-r_cNr8g/"><img id="youtube" src="../media/images/youtube.png"></a>
+
+
+      </div>
+
+      <div class="navigationBar">
+        <a href="../home_page_asia_pacific/home_page_asia_pacific_website.html"><img src="../media/images/mainlogo.png" alt="" id="logo"></a>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="">
+            <a href="../html/searchResults.html"><img src="../media/images/searchIcon.png" alt="" ></a>
+            <div class="searchIcon">
+              <a href="../html/13_login.html"><img src="../media/images/loginButton.png" alt=""></a>
+            </div>
+          </div>
+          <ul type="none" class="navList">
+            <div class="navblock">
+              <li id="navItem" class="navItem1"><a href="../html/AboutUs_1_mainpage.html" id="navLink" >About Us</a></li>
+              <div class="dropdown-content icc" >
+                <a href="../html/AboutUs_missionandVision.html">Mission & Vision</a>
+                <a href="../html/AboutUs_our_infrastructure.html">Our Infrastructure</a>
+                <a href="../html/AboutUs_InternationalCollaboration.html" id="innermenu1">International-Collaborations
+                </a>
+
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_International Office.html">International Office</a>
+                <a href="../html/AboutUs_Accreditations & Affiliations.html">Accreditations & Affiliations</a>
+                <a href="../html/AboutUs_Academic Advisory Council.html">Academic Advisory Council</a>
+                <a href="../html/AboutUs_board_of_governors.html">The Board of Governors</a>
+                <a href="../html/AboutUs_director_message.html">Director's Message</a>
+                <a href="../html/AboutUs_chairman_message.html">Chairman's Message</a>
+                <a href="../html/.html">Video Gallery</a>
+                <a href="../html/AboutUs_image_gallery.html">Image Library</a>
+              </div>
+
+            </div>
+
+            <div class="navblock1">
+              <li id="navItem"><a href="../html/Academic_1_main_page.html" id="navLink">Programs</a></li>
+              <div class="dropdown-content icc1">
+                <a href="../html/academic_1_pgdm.html">PGDM</a>
+                <a href="../html/academic_2_pgdm_marketing.html">PGDM Marketing</a>
+                <a href="../html/academic_3_pgdm_ib.html">PGDM IB</a>
+                <a href="../html/academic_4_pgdm_bfs.html">PGDM BFS</a>
+                <a href="../html/academic_5_ibmspss.html">IBM SPSS Statistics Certification</a>
+                <a href="../html/academic_6_executive_pgdm.html">Executive - PGDM</a>
+              </div>
+            </div>
+
+            <div class="navblock2">
+              <li id="navItem"><a href="../html/research_1_mainPage.html" id="navLink">Research</a></li>
+              <div class="dropdown-content icc2">
+                <a href="../html/research_2_Publications.html">Publication</a>
+                <a href="../html/research_3_conferences_organised.html">Conferences</a>
+                <a href="../html/research_4_institutejournals_financejournal.html">Institute Journals </a>
+              </div>
+            </div>
+
+            <div class="navblock3">
+              <li id="navItem"><a href="../html/faculty_1_coreFaculty.html" id="navLink">Faculty</a></li>
+              <div class="dropdown-content icc3">
+                <a href="../html/faculty_1_coreFaculty.html">Core Faculty</a>
+                <a href="../html/faculty_2_visitingFaculty.html">Visiting Faculty</a>
+                <a href="../html/faculty_3_managementTeam.html">Management Team </a>
+                <a href="../html/faculty_4_internationalFaculty.html">International Faculty</a>
+                <a href="../html/faculty_5_guestfaculty.html">Guest Faculty</a>
+              </div>
+            </div>
+
+            <div class="navblock4">
+              <li id="navItem"><a href="../html/admissions_1_mainPage.html" id="navLink">Admissions</a></li>
+              <div class="dropdown-content icc4">
+                <a href="../html/.html">Admission 2018-20 Apply Online </a>
+                <a href="../html/admissions_1_policy_statement.html">Policy Statement </a>
+                <a href="../html/admissions_9_admission_procedure.html">Admission Procedure </a>
+                <a href="../html/admissions_10_announcements_gdpi.html">Announcements and GDPI Dates</a>
+                <a href="../html/admissions_7_how_to_apply.html">How to Apply</a>
+                <a href="../html/.html">Download Prospectus </a>
+                <a href="../html/admissions_5_fees_structure.html">Fee Structure & Scholarships</a>
+                <a href="../html/admissions_3_hostel_fees.html">Hostel Fees</a>
+                <a href="../html/admissions_4_financial_assistance.html">Financial Assistance </a>
+                <a href="../html/.html">FAQs</a>
+                <a href="../html/admissions_2_rules_regulations.html">Rules & Regulations</a>
+              </div>
+            </div>
+
+            <div class="navblock5">
+              <li id="navItem"><a href="../html/library_1_mainPage.html" id="navLink">Library</a></li>
+              <div class="dropdown-content icc5">
+                <a href="../html/library_1_mainPage.html">About Library</a>
+                <a href="../html/library_8_Print_resources.html">Print Resources </a>
+                <a href="../html/library_7_EResources.html">E-Resources </a>
+                <a href="../html/library_10_services_and_facilities.html">Services and Facilities</a>
+                <a href="../html/library_9_referrals.html">Referrals</a>
+              </div>
+            </div>
+
+            <div class="navblock6">
+              <li id="navItem"><a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html" id="navLink">Placement</a></li>
+              <div class="dropdown-content icc6">
+                <a href="../html/placements_ccr.html">Centre for Corporate Relations </a>
+                <a href="../placement_main_page 15-17 batch students/placement_main_page_15_17.html">Final Placements  </a>
+                <a href="../html/.html">Summer Internship  </a>
+                <a href="../html/placements_student_testimonials.html">Students Testimonials </a>
+                <a href="../html/.html">Industrial Visit </a>
+                <a href="../html/Alumni_Page.html">Alumni  </a>
+                <a href="../html/.html">Download Placement Brochure </a>
+              </div>
+            </div>
+            <li id="navItem"><a href="../html/Takshila_1_skillsDevelopment.html" id="navLink">Takshila</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="facultyBanner">
+          <img src="../media/22_facultybackground.jpg" alt="">
+      </div>
+      <div class="blackBg">
+      </div>
+      <div class="flogo">
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+      <div class="fbn">
+        <h2 class="mf">Meet The Faculty</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+      </div>
+
+      <div id="yourQuery1">
+        <img src="../media/images/yourQuery.png" alt="" >
+      </div>
+
+      <div class="tabc">
+        <div class="tab">
+          <a href="../html/faculty_1_coreFaculty.html"><button class="tablinks" id="abs1" style="background-color:#0d4d95;color:white">Core Faculty </button></a>
+          <a href="../html/faculty_2_visitingFaculty.html"><button class="tablinks" id="abs1">Visiting Faculty </button></a>
+          <a href="../html/faculty_3_managementTeam.html"><button class="tablinks" id="abs1">Management Team </button></a>
+          <a href="../html/faculty_4_internationalFaculty.html"><button class="tablinks" id="abs1">International Faculty </button></a>
+          <a href="../html/faculty_5_guestfaculty.html"><button class="tablinks" id="abs1">Guest Speakers </button></a>
+        </div>
+      </div>
+
+
+      <br><br>
+      <h3 id="fp1">Faculty Profile</h3>
+      <br>
+      <h6 id="ap1"><strong>INDIVISUAL PROFILE</strong></h6>
+
+      <div class="row ">
+        <div class="col r11">
+          <a href=""><img src="../media/facultyimagesnew/samiran_jana.jpg" alt="" id="fimage"></a>
+        </div>
+
+        <div class="col">
+
+          <h2 id="fname">Dr. Samiran Jana   </h2>
+          <p id="fc1">Assistant Professor </p>
+          <p id="fc22">Area : Finance and Banking   </p>
+          <p id="fc3">Experience:  19 years</p>
+          <p id="fc44">Ph. D., MBA</p>
+
+
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col ">
+          <div class="contactDetailsSection">
+            <img src="../media/Contact-Prof.png" alt="" id="cdicon"><p id="contactDetails">Contact Details</p>
+            <p id="mailid"><u>Samiran.jana@asiapacific.edu     </u><br>011-42094791
+</p>
+            <img id="fbfp" src="../media/images/facebook.png">
+            <img id="gPlusfp" src="../media/images/googleplus.png">
+            <a href="https://www.linkedin.com/in/dr-samiran-jana-403ba765/"><img id="linkedInfp" src="../media/images/linked.png"></a>
+            <img id="pinterestfp" src="../media/images/pinterest.png">
+            <img id="twitterfp" src="../media/images/twitter.png">
+            <img id="youtubefp" src="../media/images/youtube.png"><br>
+            <p><button type="button" name="button" class="btn" id="adobedownloadbutton"><a href="#">Download Full Profile</a></button></p>
+            <p id="aicon"><img src="../media/adobe.png" alt="" id="adobeicon"></p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'po')" id="abcde">Profile Overview</button>
+        <button class="tablinks" onclick="openCity(event, 'rp')" id="abcde">Research and Publication</button>
+        <button class="tablinks" onclick="openCity(event, 'ar')" id="abcde">Areas of Interest</button>
+        <button class="tablinks" onclick="openCity(event, 'aa')" id="abcde">Experience</button>
+        <button class="tablinks" onclick="openCity(event, 'mdp')" id="abcde">Achievement & Awards</button>
+      </div>
+
+        <div id="po" class="tabcontent" style="display:block">
+          Dr. Jana is Ph.D from Jamia Millia Islamia, New Delhi. He has completed his Masters in Business Administration from Babasaheb Bhimrao Ambedkar Bihar University. He has 19 years of teaching and research experience. He has worked with premier Institutes like IMI, New Delhi, IBA, Greater Noida and GLBIMR, Greater Noida & ITS Noida. He has published 17 Research Papers in Nationals and International Journals of repute. He has presented papers in National and International Seminars, some of his papers were selected as best papers in these seminars. He has presented paper at India Finance Conference at Indian Institute of Management, Kolkata. He is a registered Research Guide of Sri Venkateswaria University. One research scholar is pursuing Ph.D under him.
+        </div>
+
+        <div id="rp" class="tabcontent">
+            1.	Dr. Abdul Aziz Ansari and Samiran Jana, “Stock Price Decision of Indian Investors”, The Indian Journal of Commerce, Vol 62, No. 3, July – September 2009, ISSN No.: 0019-512X a SCI listed and Refereed Journal.
+            <br>2.	Dr. Samiran Jana, “Investors’ Sentiment at Indian Stock Market” has been accepted for publication, Global Business Review, ISSN No. 0972-1509, a Scopus and SCI listed and Refereed Journal, Impact factor: 0.211, Sage Pablication.
+            <br>3.	Dr. Samiran Jana, “Integration of Indian Stock markets with other Stock markets of Developed and Developing Countries in the World”, has been submitted for publication in IIMS Journal of Management Sciences, published by Indian Institute of Management (IIM), Shillong.
+            <br>4.	Dr. Abdul Aziz Ansari and Samiran Jana, “Can Indian Indices bear the news of Indian Capital Market”, Al-Barkaat Journal of Finance & Management, Vol-2, January-June 2010, ISSN No. 0974-781. Link
+            <br>http://www.indianjournals.com/ijor.aspx?target=ijor:abjfm&volume=2&issue=1&article=002
+            <br>5.	Dr. Samiran Jana and Dr. Abdul Aziz Ansari, “Investors Sentiment and Purposes of S&P CNX Nifty”, International Journal of Research in Management, issue 1, volume 3 (November, 2011), with impact factor 2.14, ISSN No. 2249-5908.
+            <br>link http://rspublication.com/ijrm/nov11%20pdf/2.pdf
+            <br>6.	Dr. Samiran Jana and Dr. K. C. Meher, “On the validity of the weak form of efficient market hypothesis applied to National Stock Exchange of India (NSE) and Bombay Stock Exchange of India (BSE)”, International Journal of Business and Management Tomorrow Vol 2, No. 3, (March 2012), Impact factor: 0.421, ISSN No.: 2249-9962,
+            <br>link http://www.ijbmt.com/issue/265.pdf
+            <br>7.	Dr. Samiran Jana and Dr. K. C. Meher, “Is it possible to avoid noise traders’ effect from stock price: Experience from Indian Market”, International Journal of Research in Management Vol 3, No. 2 May (2012), Impact factor: 2.14, ISSN No. 2249-5908.
+            <br>Link http://www.rspublication.com/ijrm/may%2012/9.pdf
+            <br>8.	Dr. Samiran Jana and Dr. K. C. Meher, “Sensex and Whole Sale Price Index of India: Are they Integrated”, Parikalpana-KIIT Journal of Management, Vol 8, 2012, ISSN No. 0974-2808.
+            <br>http://www.ksom.ac.in/resources/kiit-journal-of-management/issues/
+            <br>9.	Dr. K. C. Meher and Dr. Samiran Jana, “Bottom Line of Divested PSE’s in Post Privatization Scenarios”, 4D International Journal of Management and Science, Vol s b3, Issue 1, 2013, ISSN 2250-0669.
+            <br>http://www.4dinternationaljournal.com/journal/content.php
+            <br>10.	Dr. Samiran Jana, “Can Indian Stock Index return provide complete hedge against Inflation?”, International Journal of Research in Management Issue-3, Vol. 1, January 2013, Impact factor: 2.14, ISSN No. 2249-5908.
+            <br>http://www.rspublication.com/ijrm/jan13/5.pdf
+            <br>11.	Dr. Samiran Jana, “Applicability of Fisher Hypothesis in Indian Capital market”, International Journal of Research in Commerce, Economics & Management, Vol no. 3, Issue no 4, (April) ISSN No. 2231-4245.
+            <br>http://www.ijrcm.org.in/cem/index.php
+            <br>12.	Dr. Samiran Jana, “Applicability of Fisher Hypothesis in Pre and Post reforms era on Indian capital Market”, The International Journal of Management, Vol 2, Issue 2, April 2013, ISSN No. 2277 – 5846. http://www.theijm.com/vol2%20issue2.zip
+            <br>13.	Dr. Samiran Jana and Dr. K. C. Meher, “Inflation and Return of Indian Stock Indices”, IIMT Business Review, Vol: V, Feb 2013, ISSN No 2231-3842.
+            <br>14.	Dr. Samiran Jana, “Relationship between S&P CNX Nifty and Consumer price Index of India”, IIM Journal, Vol. 2 Issue 1, June – Dec 2013.
+            <br>15.	Dr. Samiran Jana, “Relationship between nominal Stock Index return and Inflation: Evidence from post reforms era of Indian Economy”, International Journal of Research Excellence in Management, Vol 2, Issue-1, July 2013, ISSN: 2278-7089, Impact factor: 0.558.
+            <br>https://dl.dropboxusercontent.com/u/87396819/IJREM_JULY_2013/IJREM_V2_I1__full.pdf
+            <br>16.	Dr. Samiran Jana & Dr. K. C. Meher, “Can Investors’ Sentiment control the Stock Market Return?: Experience from India” Journal of Applied Finance and Economics, Vol-1, Issue-1-2, Jan-Dec-2013.
+            <br>17.	Dr. Samiran Jana, “ Can Indian Inflation Measures Express Broad Market Indices of India?”, International Journal of Engineering and Management Sciences, Vol. 5 (3), July 2014, ISSN No. 2229-600X, Impact factor 0.467.
+            <br>http://scienceandnature.org/IJEMS-Vol5(3)-July2014/IJEMS%20Vol5(3)-9.pdf
+
+            <br><br>Conference / Seminar<br><br>
+
+            1.	“Feasibility of an educational institute under the constraints of AICTE act and Government regulation” presented in an international seminar on Corporate Governance, at Jamia Millia Islamia, New Delhi in September 20th 2007.
+            <br>2.	“Efficient Market Hypothesis and Stock Trading”, presented in the 32nd national social science congress, on Dec. 18-22, 2008 at Jamia Millia Islamia, New Delhi.
+            <br>3.	“Purposes of Indian Stock Indices” presented in international conference 2011 on India Immerging, advantages and challenges at Indus Business Academy, Greater Noida.
+            <br>4.	“Is it possible to stop price rigging at Indian Stock Market?”, presented in National seminar on Ethical Imperatives for Contemporary Business Organisation on 20th and 21st January 2012 at I.T.S. Institute of Management, Greater Noida. This was awarded as best paper.
+            <br>5.	“Relationship between stock price and inflation”, presentated in Indian Finance Conference, 2012 (organised by IIM –Kolkata, IIM-Bangalore and IIM-Ahmedabad) at Indian Institute of Management (IIM) Kolkata on 19 - 21 December 2012.
+            <br>6.	“Inflation and Return of Indian Stock Indices”, has been presented in national seminar on Contemporary Issues in Business Management at IIMT Institute of Management on 23rd February 2013.
+            <br>7.	“Rational trader versus Noise trader in Indian Stock Market: Issues and Challenges” presented in the national conference on Strategies for Sustainable Growth in the Era of Information Technology at GNIT Business School, on 24th November 2012. The paper was published in the seminar compendium.
+            <br>8.	“Applicability of Fisher Hypothesis in Indian Capital Market”, was presented at 5th National Conference on Management Innovation & Supply Chain Strategies (NCMIS), at Galgotia Business School, on 9th March 2013. This was the second best paper at the seminar.
+            <br>9.	“Applicability of Fisher Hypothesis on Pre & Post Reforms era of Indian Capital Market” was presented at national seminar at Indus Business Academy, on 12th and 13th February 2013.
+            <br>10.	“Can Investors’ Sentiment Control the Stock Market Return? Experience from India”, was presented at National Seminar on India Rising: Where are we in the Trajectory, on 4th and 5th October 2013.
+            <br>11.	“Talent Management: Role of HR in Creating Organisational Excellence” was presented at 1st International Conference on Challenges in Management and Information Technology on January 10th 2014.
+            <br>12.	“Relationship between Real Stock Index Return and Inflation: Evidence from India”, was presented at National Seminar on Corporate India 2020: Emerging Business Dynamics on June 6-7 2014.
+
+            <br><br><h6><strong>Consultancy & MDPs</strong></h6><br><br>
+            1.	Resource person to a three day (17/4/12-19/4/12) Faculty Development Programme (FDP) at I.T.S. – Institute of Management, Greater Noida on data analysis by using Excel-2007 and SPSS.
+            <br>2.	Resource person to a one day (7/4/12) Faculty Development Programme (FDP) at I.T.S. - Institute of Management, Greater Noida on Economic Survey 2012.
+            <br>3.	Resource person to a one day (10/4/13) Faculty Development Programme (FDP) at I.T.S. – Institute of Management, Greater Noida on data analysis by using Excel-2007 and SPSS.
+</div>
+
+        <div id="ar" class="tabcontent">
+          Finance, Accounting, Quantitative Techniques and Business Research Methods
+
+        </div>
+
+        <div id="aa" class="tabcontent">
+          he has a total experience of 19 years
+        </div>
+
+
+
+
+
+
+
+
+        <br><br><br><br>
+        <div class="lowerSection">
+          <br><br>
+          <p id="description">
+            <img src="../media/Logo.png" alt="" width="21%" id="fimagefinal">
+            <br><br>
+            Asia-Pacific Institute of Management is a <br>top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).</p>
+          <br>
+          <p id="accr">Accreditions:</p>
+          <img src="../media/images/accc1.png" alt="" id="accimg1">
+          <img src="../media/images/accc2.png" alt="" id="accimg">
+          <img src="../media/images/accc3.png" alt="" id="accimg" style="width:4.3%;height:42px">
+          <img src="../media/acr8.jpg" alt="" id="accimg" style="width:4.7%;height:42px">
+          <br><br>
+          <img src="../media/acr5.jpg" alt="" id="accimg1" style="width:4.7%">
+          <img src="../media/acr6.jpg" alt="" id="accimg" style="width:4%;height:42px">
+          <img src="../media/acr7.jpg" alt="" id="accimg" style="width:4%;height:42px">
+          <img src="../media/images/accc4.png" alt="" id="accimg" style="width:4%;height:42px">
+
+          <div class="f4">
+            <ul type="none">
+              <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+              <br>
+              <li><a href="../html/academic_1_pgdm.html" id="flink">PGDM</a></li>
+              <li><a href="../html/academic_2_pgdm_marketing.html" id="flink">PGDM Marketing</a></li>
+              <li><a href="../html/academic_3_pgdm_ib.html" id="flink">PGDM IB</a></li>
+              <li><a href="../html/academic_4_pgdm_bfs.html" id="flink">PGDM BFS</a></li>
+              <li><a href="../html/academic_6_executive_pgdm.html" id="flink">Executive PGDM</a></li><br>
+              <li><a href="../html/academic_5_ibmspss.html" id="flink">Certificate Course <br> in IBM SPSS Statistics</li>
+
+            </ul>
+          </div>
+          <div class="f5">
+            <ul type="none">
+              <li id="fhh"><strong>IMPORTANT LINKS</strong></li>
+              <br>
+              <li><a href="../html/13_login.html" id="flink">Apply Online</a></li>
+              <li><a href="../html/AboutUs_1_mainpage.html" id="flink">About Us</a></li>
+              <li><a href="../html/AboutUs_our_infrastructure.html" id="flink">AIM Infrastructure</a></li>
+              <li><a href="../html/" id="flink">Mandatory Disclosure</a></li>
+              <li><a href="../html/AboutUs_Accreditations & Affiliations _aicte_approval_letter.html" id="flink">AICTE Approval Letter</a></li>
+            </ul>
+          </div>
+          <div class="f6">
+              <ul type="none">
+                <li><a href="../html/" id="flink">NIRF-2017 DATA</a></li>
+
+                <li><a href="../html/8_careers.html" id="flink">Careers</a></li>
+                <br><br><br>
+              </ul>
+          </div>
+          <div class="f7">
+            <ul type="none">
+              <li id="fhh"><strong>OTHER LINKS</strong></li>
+              <br>
+              <li><a href="../html/" id="flink">Download Prospectus</a></li>
+              <li><a href="../html/" id="flink">Privacy Policy</a></li>
+              <li><a href="../html/" id="flink">Site Terms</a></li>
+              <li><a href="../html/" id="flink">Terms & Conditions</a></li>
+              <li><a href="../html/" id="flink">Site Map</a></li>
+              <br><br><br><br><br><br><br>
+            </ul>
+          </div>
+          <div class="f8">
+
+              <p><strong>REQUEST A CALL BACK</strong></p>
+              <br>
+              <form id="myForm">
+                <p id="footerli"><input type="text" placeholder="Name:" id="ff" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Phone No:" id="ff11" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Email:" id="ff111" style="color:black"></p>
+
+                <p id="footerli"><input type="text" placeholder="Query For:" id="ffff" style="color:black"></p>
+
+                <input type="button" name="" value="Submit" onclick="showdata();" style="background-color:#f9b615;border:1px solid #f9b615;border-radius:3px;cursor:pointer;margin-left:0.5%">
+              </form>
+
+          </div>
+          <div class="footersocialMediaLinks">
+            <a href="https://www.facebook.com/asiapacificdelhi"><img id="ffb" src="../media/images/footerFB.png"></a>
+            <a href="https://plus.google.com/+asiapacificinstituteofmanagement"><img id="fgPlus" src="../media/images/footergPlus.png"></a>
+            <a href="https://www.linkedin.com/edu/school?id=40657"><img id="flinkedIn" src="../media/images/footerlinkedin.png"></a>
+            <a href="#"><img id="ftwitter" src="../media/images/footerskype.png"></a>
+            <a href="https://twitter.com/AIM_Delhi"><img id="fyoutube" src="../media/images/footertwitter.png"></a>
+            <a href="#"><img id="finstagram" src="../media/images/footerInstagram.png"></a>
+          </div>
+        </div>
+      <div class="end">
+        <br>
+         © Asia Pacific Institute of Management. All rights reserved.
+        <br>
+      </div>
+
+    </div>
+  </body>
+</html>
